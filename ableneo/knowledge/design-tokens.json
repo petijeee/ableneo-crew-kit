@@ -1,0 +1,105 @@
+{
+  "$schema": "https://design-tokens.org/schema.json",
+  "_meta": {
+    "brand": "Ableneo",
+    "claim": "Intelligence that works",
+    "source": "ABLENEO Design Guidelines 2025 + brand palette",
+    "note": "Cool/Light grey hex values were shown as swatches without numeric values in the guidelines; fill from the official palette file when needed."
+  },
+  "color": {
+    "primary": {
+      "lime": { "value": "#CDDE00", "cmyk": "25/0/100/0", "name": "Lime 100%" },
+      "charcoal": { "value": "#1D2024", "cmyk": "76/68/62/72", "name": "Charcoal 100%" },
+      "white": { "value": "#FFFFFF", "cmyk": "0/0/0/0" }
+    },
+    "limeTints": {
+      "lime80": { "value": "#DCE84D", "cmyk": "18/0/83/0" },
+      "lime70": { "value": "#E1EB66", "cmyk": "15/0/73/0" },
+      "lime60": { "value": "#E6EF80", "cmyk": "13/0/62/0" },
+      "lime50": { "value": null, "note": "50% tint of #CDDE00" }
+    },
+    "charcoalTints": {
+      "charcoal95": { "value": null },
+      "charcoal85": { "value": null },
+      "charcoal75": { "value": null },
+      "charcoal65": { "value": null }
+    },
+    "accent": {
+      "violet": { "value": "#B6B0F2", "cmyk": "27/29/0/0" },
+      "skyBlue": { "value": "#C3D3FD", "cmyk": "20/12/0/0" }
+    },
+    "neutral": {
+      "steelGrey": { "value": "#49576A", "cmyk": "75/60/42/22" },
+      "coolGrey100": { "value": null },
+      "coolGrey50": { "value": null },
+      "lightGrey100": { "value": null },
+      "lightGrey50": { "value": null }
+    },
+    "_rules": {
+      "oneChromaticFamilyAtATime": true,
+      "chromaticFamilies": ["lime", "skyBlue", "violet"],
+      "chromaticOnlyOnNeutralBackgrounds": true,
+      "neverMixChromaticFamilies": true,
+      "limeNeverWithAccents": true
+    }
+  },
+  "typography": {
+    "primaryFamily": "Ableneo",
+    "webFallbackFamily": "Poppins",
+    "weights": {
+      "ableneo": ["Thin", "UltraLight", "Light", "Regular", "Medium", "Semibold", "Bold"],
+      "poppins": ["Thin", "ExtraLight", "Light", "Regular", "Medium", "Semibold", "Bold", "ExtraBold", "Black"]
+    },
+    "scale": {
+      "headline":   { "font": "Ableneo Bold",     "sizePt": 48, "tracking": 0, "lineHeight": "130%" },
+      "subheadline":{ "font": "Ableneo SemiBold", "sizePt": 32, "tracking": 0, "lineHeight": "135%" },
+      "body":       { "font": "Ableneo Regular",  "sizePt": 16, "tracking": 0, "lineHeight": "135%" },
+      "highlight":  { "font": "Ableneo Bold" }
+    },
+    "proportions": {
+      "subheadlineVsHeadline": "~1/3 smaller",
+      "bodyVsHeadline": "~1/2"
+    },
+    "alignment": {
+      "center": "short text, headlines, key statements, small formats",
+      "left": "body text, longer paragraphs, multi-column layouts"
+    }
+  },
+  "logo": {
+    "elements": ["logotype (wordmark 'ableneo')", "logo mark (network-node symbol)"],
+    "tagline": "Intelligence that works",
+    "variants": ["on-dark", "on-lime", "on-light", "monochrome-black", "monochrome-white"],
+    "minWidthMm": { "withTagline": 33, "withoutTagline": 20 },
+    "safeZone": "diameter of the largest circle in the logo mark, all sides",
+    "misuse": ["recolor", "rotate", "distort", "shading", "gradient", "outline", "low-contrast background", "alter typeface"]
+  },
+  "iconography": {
+    "styles": { "solid": "emphasis / highlights", "linear": "secondary / supportive" },
+    "system": "geometric, rounded edges, consistent stroke weight",
+    "rule": "maintain sufficient contrast on light and dark backgrounds"
+  },
+  "surface": {
+    "light": { "value": "#F1F1EF", "use": "light slide background" },
+    "panelOnCharcoal": { "value": "#282C31", "use": "card / panel on charcoal" },
+    "oliveCallout": { "value": "#1E2200", "use": "dark callout block, text-on-lime" }
+  },
+  "deck": {
+    "_note": "Social/deck visual system. Confirmed from official Figma carousel + reference. Engine: ableneo/deck-kit/.",
+    "format": { "social": "1080x1350 (4:5)", "square": "1080x1080" },
+    "layout": { "marginPx": 90, "cardRadiusPx": 18, "pillRadiusPx": 60, "topBarHeightPx": 11, "topBarWidth": "58%" },
+    "typography": {
+      "fontInUse": "Ableneo (real OTF, installed + bundled in deck-kit)",
+      "webFallback": "Poppins",
+      "headline": { "weight": 300, "note": "Light geometric, large, tracking -1px" },
+      "emphasis": { "weight": 700, "note": "Bold word(s) in lime (on dark), white (on lime), or inside a periwinkle block (on light)" },
+      "body": { "weight": 400 }
+    },
+    "accentRole": {
+      "periwinkle": "#C3D3FD — primary accent for emphasis blocks and pill buttons; the one chromatic family besides lime, never mixed with lime on the same slide"
+    },
+    "signatureDevices": ["background grid lines", "top lime bar (partial width)", "giant ghost page number", "header row (tag + page number)", "arrow pill bottom-right", "logo bottom-left (top on cover/CTA)", "color blocks holding the key statement", "icon-in-circle for lists", "pill highlight around a key word"],
+    "slideVariants": ["dark (#1D2024)", "light (#F1F1EF)", "lime (#CDDE00)", "periwinkle accent blocks"],
+    "components": ["page", "head(tag,num)", "ghost(n)", "arrow(stroke)", "topbar", "card", "pillbtn", "variants.dark/light/lime"],
+    "kit": "ableneo/deck-kit/deck-kit.mjs (import tokens, css, logos, helpers). Example: deck-kit/example.mjs. Full deck: 'ableneo event promo/carousel-lifecycle/render-v3.mjs'."
+  }
+}

@@ -1,0 +1,14 @@
+.DS_Store
+.env
+.env.*
+node_modules/
+.strategist/
+*.log
+
+# proprietary fonts + render artifacts
+ableneo/deck-kit/assets/fonts/*.otf
+**/example-*.png
+**/example-*.html
+
+# ableneo-level secrets
+ableneo/.env

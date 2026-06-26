@@ -1,0 +1,34 @@
+{
+  "12": {
+    "inputs": {
+      "filename_prefix": "video/wan2.7_t2v",
+      "format": "auto",
+      "codec": "auto",
+      "video": [
+        "13",
+        0
+      ]
+    },
+    "class_type": "SaveVideo",
+    "_meta": {
+      "title": "Save Video"
+    }
+  },
+  "13": {
+    "inputs": {
+      "model": "wan2.7-t2v",
+      "model.prompt": "`Abstract calm hero shot, soft lime-green glow rising on a clean deep charcoal background, gentle particles settling, minimal and premium, slow gentle camera, lots of empty negative space, no text, no logos`\n\n\n*cinematic, abstract, deep charcoal background #1D2024, lime-green accents #CDDE00, clean minimal, shallow depth of field, premium tech mood, slow camera, no text, no logos, no readable letters.*\n",
+      "model.negative_prompt": "",
+      "model.resolution": "720P",
+      "model.ratio": "16:9",
+      "model.duration": 5,
+      "seed": 16832486,
+      "prompt_extend": true,
+      "watermark": false
+    },
+    "class_type": "Wan2TextToVideoApi",
+    "_meta": {
+      "title": "Wan 2.7 Text to Video"
+    }
+  }
+}
