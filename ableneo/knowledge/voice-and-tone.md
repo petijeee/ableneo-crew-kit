@@ -53,6 +53,14 @@ Short declarative sentences. Real numbers. Examples of on-brand lines:
 - **Em dashes.** Use a comma, a period, or restructure the sentence.
 - **The two-sentence reject-then-replace move** ("We don't X. We do Y."). Carry any contrast inside one sentence through specifics, never announce it across two.
 
+## When writing in Slovak
+- Write natural, smooth Slovak. Avoid Slovak-English code-switching that makes copy read clunky.
+  Replace dropped-in English with the clean Slovak word: `research-u` → prieskum, `orphaned` →
+  bez partnera, `opener` → ako začať rozhovor, `runway` → časová rezerva, `pitch`/`counter` →
+  naša pozícia / protiargument, `liability` → riziko, `outreach` → oslovenie, `buying triggers`
+  → čo tlačí firmy konať.
+- Never use the word **„ťah"** (e.g. „top ťah", „tri ťahy"). Use „príležitosť", „krok", or „čo spraviť".
+
 ## Before / after
 - ❌ "Our cutting-edge AI platform could potentially help transform your operations."
 - ✅ "We cut invoice processing time by 37%. In 90 days. In production."
