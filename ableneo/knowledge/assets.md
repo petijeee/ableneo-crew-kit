@@ -1,28 +1,23 @@
 # Assets
 
-Where the reusable brand and production assets live. Paths are references, the large
-binaries are not copied into this repo. Confirm a path before depending on it.
+Reusable brand and production assets in this repo.
 
 ## Brand
-- **Logo (SVG):** `video-pipeline/linkedin-intro/assets/logo-ableneo.svg` (in this repo).
-- **Design guidelines (high-res PDF):**
-  `/Users/peterurbanec/claude-transfer/CLAUDE-CODE/DASHBOARD/ableneo_design_guidelines_high-res.pdf`
-  (several identical copies exist under `claude-transfer/CLAUDE-CODE/`).
+- **Logo (SVG):** `ableneo/deck-kit/assets/ableneo-logo-on-dark.svg`, `...-on-light.svg`.
 - **Design tokens (machine-readable):** `ableneo/knowledge/design-tokens.json`.
+- **Fonts:** Ableneo OTF is proprietary and is not in this repo. Poppins is the web fallback.
+  See `ableneo/deck-kit/assets/fonts/README.md`.
 - Color, type, logo rules: `color-palette.md`, `typography.md`, `logo-and-iconography.md`.
 
-## Video production
-- **Pipeline:** `video-pipeline/linkedin-intro/` (hyperframes + ffmpeg, see its `CLAUDE.md`).
-- **Clip metadata:** `video-pipeline/linkedin-intro/clips.json`.
-- **Compositions:** intro/outro/event-promo/lidri-transformacie under `compositions/`.
+## Render engine (decks, carousels, video overlays)
+- **deck-kit:** `ableneo/deck-kit/deck-kit.mjs` (tokens, colors, fonts, components).
+- **Example:** `ableneo/deck-kit/example.mjs`.
 
-## Visual / carousel
-- **Carousel + cover render:** `ableneo event promo/slides/generate.mjs`,
-  `ableneo event promo/event-cover-hrivnak/` (Puppeteer HTML to PNG).
-
-## Knowledge base (research retrieval)
-- **Strategist KB CLI:** `strategist.py` (`ingest` / `ask` / `research` / `status`),
-  store in `.strategist/`.
+## Video / AI b-roll
+- **Transcribe (event recording to text + srt):** `ableneo/scripts/transcribe.sh`.
+- **9:16 social render (letterbox + brand subtitles):** `ableneo/scripts/make-9x16.sh`.
+- **ComfyUI Cloud client (AI b-roll):** `ableneo/scripts/comfy_client.py` (needs an API key).
+- **Workflows:** `ableneo/workflows/` (ComfyUI API format).
 
 ## Pending
 - `ableneo/knowledge/templates/ableneo_presentation_template.pptx` is not yet present.
