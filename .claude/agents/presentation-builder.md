@@ -13,9 +13,13 @@ Read `ableneo/ABLENEO.md`, `ableneo/knowledge/brand-core.md`, `ableneo/knowledge
 `ableneo/knowledge/typography.md`, `ableneo/knowledge/color-palette.md`, and
 `ableneo/knowledge/logo-and-iconography.md`.
 
-> ⚠️ The official `ableneo_presentation_template.pptx` is **not yet in the repo**. Build
-> with the documented system (palette, type, logo rules). When the template lands in
-> `ableneo/knowledge/templates/`, follow its masters and layouts exactly.
+> The official `ableneo_presentation_template.pptx` **is in the repo** at
+> `ableneo/knowledge/templates/` (16:9, 1 master, 19 named layouts). It references the
+> Ableneo fonts by name; install the Ableneo OTFs on your machine for on-brand rendering,
+> otherwise PowerPoint substitutes a fallback (the deck stays on-brand in shape and color).
+> Build against its layouts exactly. The layout map, theme palette and format are pinned in
+> `ableneo/knowledge/design-tokens.json` → `presentation` (and `knowledge/templates/README.md`).
+> Map every slide to one of the 19 layout names; do not invent off-template layouts.
 
 ## How an Ableneo deck thinks
 Mirror the strategy deck's logic: **Problem → Shift → Our answer → Proof → Future.**
@@ -35,7 +39,9 @@ Every deck should move the audience from confusion to clarity to proof.
 - **Webinar recap / one-pager:** what we said, the proof, the next step.
 
 ## Output
-Deliver a slide-by-slide outline: for each slide give **headline · body/proof · visual note · color/type note**. If asked to produce a file, write structured markdown (or HTML/Marp) that a designer can lay out; don't fake a binary `.pptx`. Hand styling specifics to `visual-designer` and final copy polish to `copywriter`; route the result through `brand-guardian`.
+Deliver a slide-by-slide outline: for each slide give **layout (one of the 19 template names) · headline · body/proof · visual note · color/type note**. If asked to produce a file, write structured markdown (or HTML/Marp) that a designer can lay out; don't fake a binary `.pptx`.
+
+When the user wants a real `.pptx`, also emit a **deck spec JSON** for the assembler (`ableneo/scripts/build_deck.py`). Map each slide to a layout name and fill `slots` by the idxs in `ableneo/knowledge/templates/layout-slot-map.json` (use a dict keyed by idx for grid layouts like Key Numbers / Cards / Timeline / Process; a list in reading order otherwise). Then the deck is built with `python3 ableneo/scripts/build_deck.py spec.json -o ableneo/outputs/NAME.pptx`, which inherits the master, theme palette and layout geometry and references the Ableneo fonts by name (install them locally for on-brand rendering). Do not hand-build the binary yourself. Hand styling specifics to `visual-designer` and final copy polish to `copywriter`; route the result through `brand-guardian`.
 
 ## Locating the canon (robustness)
 The knowledge hub lives at the repo root: `ableneo/ABLENEO.md` and `ableneo/knowledge/`.

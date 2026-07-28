@@ -1,0 +1,2419 @@
+{
+  "_meta": {
+    "source": "Generated from ableneo_presentation_template.pptx by build_deck.py --dump-map",
+    "format": {
+      "ratio": "16:9",
+      "emu": [
+        18288000,
+        10287000
+      ]
+    },
+    "conventions": {
+      "title_idx": 0,
+      "footer_idx": 10,
+      "note": "idx 0 is the title; idx 10 is page-number/footer chrome (left as template default unless overridden). Content slots are listed in reading order (top->bottom, then left->right)."
+    }
+  },
+  "layouts": {
+    "Cover": {
+      "title": null,
+      "footer": null,
+      "content_order": [
+        12,
+        14
+      ],
+      "text_slots": [
+        12,
+        14
+      ],
+      "picture_slots": [],
+      "slots": [
+        {
+          "idx": 12,
+          "kind": "text",
+          "name": "Text Placeholder 5",
+          "geom_in": [
+            0.91,
+            4.77,
+            18.12,
+            2.93
+          ]
+        },
+        {
+          "idx": 14,
+          "kind": "text",
+          "name": "Text Placeholder 12",
+          "geom_in": [
+            0.93,
+            8.05,
+            18.14,
+            1.88
+          ]
+        }
+      ]
+    },
+    "Section Divider / Primary": {
+      "title": null,
+      "footer": 10,
+      "content_order": [
+        12
+      ],
+      "text_slots": [
+        12
+      ],
+      "picture_slots": [],
+      "slots": [
+        {
+          "idx": 12,
+          "kind": "text",
+          "name": "Text Placeholder 6",
+          "geom_in": [
+            0.94,
+            6.87,
+            18.13,
+            3.02
+          ]
+        },
+        {
+          "idx": 10,
+          "kind": "text",
+          "name": "Text Placeholder 11",
+          "geom_in": [
+            1.62,
+            10.34,
+            1.95,
+            0.26
+          ]
+        }
+      ]
+    },
+    "Section Divider / Secondary": {
+      "title": null,
+      "footer": 10,
+      "content_order": [
+        12
+      ],
+      "text_slots": [
+        12
+      ],
+      "picture_slots": [],
+      "slots": [
+        {
+          "idx": 10,
+          "kind": "text",
+          "name": "Text Placeholder 11",
+          "geom_in": [
+            1.62,
+            10.34,
+            1.95,
+            0.26
+          ]
+        },
+        {
+          "idx": 12,
+          "kind": "text",
+          "name": "Text Placeholder 6",
+          "geom_in": [
+            0.94,
+            6.87,
+            18.13,
+            3.02
+          ]
+        }
+      ]
+    },
+    "Agenda / Overview": {
+      "title": null,
+      "footer": 10,
+      "content_order": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "text_slots": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "picture_slots": [],
+      "slots": [
+        {
+          "idx": 10,
+          "kind": "text",
+          "name": "Text Placeholder 11",
+          "geom_in": [
+            1.62,
+            10.34,
+            1.95,
+            0.26
+          ]
+        },
+        {
+          "idx": 28,
+          "kind": "text",
+          "name": "Text Placeholder 3",
+          "geom_in": [
+            0.94,
+            4.96,
+            8.4,
+            1.45
+          ]
+        },
+        {
+          "idx": 29,
+          "kind": "text",
+          "name": "Text Placeholder 6",
+          "geom_in": [
+            10.15,
+            4.98,
+            0.74,
+            0.59
+          ]
+        },
+        {
+          "idx": 30,
+          "kind": "text",
+          "name": "Text Placeholder 8",
+          "geom_in": [
+            10.96,
+            4.98,
+            6.51,
+            0.58
+          ]
+        },
+        {
+          "idx": 31,
+          "kind": "text",
+          "name": "Text Placeholder 6",
+          "geom_in": [
+            17.92,
+            4.98,
+            0.74,
+            0.59
+          ]
+        },
+        {
+          "idx": 32,
+          "kind": "text",
+          "name": "Text Placeholder 6",
+          "geom_in": [
+            10.15,
+            6.09,
+            0.74,
+            0.59
+          ]
+        },
+        {
+          "idx": 33,
+          "kind": "text",
+          "name": "Text Placeholder 8",
+          "geom_in": [
+            10.96,
+            6.09,
+            6.51,
+            0.58
+          ]
+        },
+        {
+          "idx": 34,
+          "kind": "text",
+          "name": "Text Placeholder 6",
+          "geom_in": [
+            17.92,
+            6.09,
+            0.74,
+            0.59
+          ]
+        },
+        {
+          "idx": 35,
+          "kind": "text",
+          "name": "Text Placeholder 6",
+          "geom_in": [
+            10.15,
+            7.2,
+            0.74,
+            0.59
+          ]
+        },
+        {
+          "idx": 36,
+          "kind": "text",
+          "name": "Text Placeholder 8",
+          "geom_in": [
+            10.96,
+            7.2,
+            6.51,
+            0.58
+          ]
+        },
+        {
+          "idx": 37,
+          "kind": "text",
+          "name": "Text Placeholder 6",
+          "geom_in": [
+            17.92,
+            7.2,
+            0.74,
+            0.59
+          ]
+        },
+        {
+          "idx": 38,
+          "kind": "text",
+          "name": "Text Placeholder 6",
+          "geom_in": [
+            10.15,
+            8.31,
+            0.74,
+            0.59
+          ]
+        },
+        {
+          "idx": 39,
+          "kind": "text",
+          "name": "Text Placeholder 8",
+          "geom_in": [
+            10.96,
+            8.31,
+            6.51,
+            0.58
+          ]
+        },
+        {
+          "idx": 40,
+          "kind": "text",
+          "name": "Text Placeholder 6",
+          "geom_in": [
+            17.92,
+            8.31,
+            0.74,
+            0.59
+          ]
+        },
+        {
+          "idx": 41,
+          "kind": "text",
+          "name": "Text Placeholder 6",
+          "geom_in": [
+            10.15,
+            9.43,
+            0.74,
+            0.59
+          ]
+        },
+        {
+          "idx": 42,
+          "kind": "text",
+          "name": "Text Placeholder 8",
+          "geom_in": [
+            10.96,
+            9.43,
+            6.51,
+            0.58
+          ]
+        },
+        {
+          "idx": 43,
+          "kind": "text",
+          "name": "Text Placeholder 6",
+          "geom_in": [
+            17.92,
+            9.43,
+            0.74,
+            0.59
+          ]
+        }
+      ]
+    },
+    "Title Only": {
+      "title": 0,
+      "footer": 10,
+      "content_order": [],
+      "text_slots": [],
+      "picture_slots": [],
+      "slots": [
+        {
+          "idx": 10,
+          "kind": "text",
+          "name": "Text Placeholder 11",
+          "geom_in": [
+            1.62,
+            10.34,
+            1.95,
+            0.26
+          ]
+        },
+        {
+          "idx": 0,
+          "kind": "text",
+          "name": "Title 1",
+          "geom_in": [
+            0.96,
+            0.6,
+            18.15,
+            1.36
+          ]
+        }
+      ]
+    },
+    "Text – Single Column": {
+      "title": 0,
+      "footer": 10,
+      "content_order": [
+        19,
+        16
+      ],
+      "text_slots": [
+        19,
+        16
+      ],
+      "picture_slots": [],
+      "slots": [
+        {
+          "idx": 0,
+          "kind": "text",
+          "name": "Title 1",
+          "geom_in": [
+            0.96,
+            0.6,
+            18.15,
+            1.36
+          ]
+        },
+        {
+          "idx": 16,
+          "kind": "text",
+          "name": "Text Placeholder 8",
+          "geom_in": [
+            1.68,
+            3.49,
+            16.58,
+            5.94
+          ]
+        },
+        {
+          "idx": 19,
+          "kind": "text",
+          "name": "Text Placeholder 10",
+          "geom_in": [
+            1.65,
+            2.33,
+            16.65,
+            0.65
+          ]
+        },
+        {
+          "idx": 10,
+          "kind": "text",
+          "name": "Text Placeholder 11",
+          "geom_in": [
+            1.62,
+            10.34,
+            1.95,
+            0.26
+          ]
+        }
+      ]
+    },
+    "Text – Two Columns": {
+      "title": 0,
+      "footer": 10,
+      "content_order": [
+        16,
+        17
+      ],
+      "text_slots": [
+        16,
+        17
+      ],
+      "picture_slots": [],
+      "slots": [
+        {
+          "idx": 0,
+          "kind": "text",
+          "name": "Title 1",
+          "geom_in": [
+            0.96,
+            0.6,
+            18.15,
+            1.36
+          ]
+        },
+        {
+          "idx": 16,
+          "kind": "text",
+          "name": "Text Placeholder 8",
+          "geom_in": [
+            1.68,
+            2.49,
+            7.55,
+            6.77
+          ]
+        },
+        {
+          "idx": 17,
+          "kind": "text",
+          "name": "Text Placeholder 8",
+          "geom_in": [
+            10.88,
+            2.49,
+            7.55,
+            6.77
+          ]
+        },
+        {
+          "idx": 10,
+          "kind": "text",
+          "name": "Text Placeholder 11",
+          "geom_in": [
+            1.62,
+            10.34,
+            1.95,
+            0.26
+          ]
+        }
+      ]
+    },
+    "Text + Visual": {
+      "title": 0,
+      "footer": 10,
+      "content_order": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "text_slots": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "picture_slots": [
+        1
+      ],
+      "slots": [
+        {
+          "idx": 1,
+          "kind": "picture",
+          "name": "Picture Placeholder 2",
+          "geom_in": [
+            10.25,
+            2.06,
+            8.84,
+            7.84
+          ]
+        },
+        {
+          "idx": 0,
+          "kind": "text",
+          "name": "Title 1",
+          "geom_in": [
+            0.96,
+            0.6,
+            18.15,
+            1.36
+          ]
+        },
+        {
+          "idx": 19,
+          "kind": "text",
+          "name": "Text Placeholder 10",
+          "geom_in": [
+            1.65,
+            2.33,
+            7.8,
+            0.65
+          ]
+        },
+        {
+          "idx": 20,
+          "kind": "text",
+          "name": "Text Placeholder 7",
+          "geom_in": [
+            1.65,
+            3.55,
+            7.84,
+            0.97
+          ]
+        },
+        {
+          "idx": 21,
+          "kind": "text",
+          "name": "Text Placeholder 7",
+          "geom_in": [
+            1.65,
+            4.71,
+            7.84,
+            0.97
+          ]
+        },
+        {
+          "idx": 22,
+          "kind": "text",
+          "name": "Text Placeholder 7",
+          "geom_in": [
+            1.65,
+            5.88,
+            7.84,
+            0.97
+          ]
+        },
+        {
+          "idx": 23,
+          "kind": "text",
+          "name": "Text Placeholder 7",
+          "geom_in": [
+            1.65,
+            7.04,
+            7.84,
+            0.97
+          ]
+        },
+        {
+          "idx": 24,
+          "kind": "text",
+          "name": "Text Placeholder 7",
+          "geom_in": [
+            1.65,
+            8.21,
+            7.84,
+            0.91
+          ]
+        },
+        {
+          "idx": 10,
+          "kind": "text",
+          "name": "Text Placeholder 11",
+          "geom_in": [
+            1.62,
+            10.34,
+            1.95,
+            0.26
+          ]
+        }
+      ]
+    },
+    "Overview / Mixed content": {
+      "title": 0,
+      "footer": 10,
+      "content_order": [
+        33,
+        15,
+        34,
+        41,
+        42,
+        43,
+        36,
+        38,
+        40,
+        39,
+        28,
+        44
+      ],
+      "text_slots": [
+        33,
+        15,
+        34,
+        41,
+        42,
+        43,
+        36,
+        38,
+        40,
+        39,
+        28,
+        44
+      ],
+      "picture_slots": [
+        24,
+        25,
+        26,
+        11,
+        35,
+        37,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "slots": [
+        {
+          "idx": 0,
+          "kind": "text",
+          "name": "Title 1",
+          "geom_in": [
+            0.96,
+            0.96,
+            18.09,
+            0.63
+          ]
+        },
+        {
+          "idx": 15,
+          "kind": "text",
+          "name": "Content Placeholder 14",
+          "geom_in": [
+            1.71,
+            2.85,
+            9.13,
+            0.4
+          ]
+        },
+        {
+          "idx": 16,
+          "kind": "picture",
+          "name": "Picture Placeholder 56",
+          "geom_in": [
+            1.69,
+            8.04,
+            1.37,
+            0.56
+          ]
+        },
+        {
+          "idx": 17,
+          "kind": "picture",
+          "name": "Picture Placeholder 56",
+          "geom_in": [
+            3.24,
+            8.04,
+            1.37,
+            0.56
+          ]
+        },
+        {
+          "idx": 18,
+          "kind": "picture",
+          "name": "Picture Placeholder 56",
+          "geom_in": [
+            4.78,
+            8.04,
+            1.37,
+            0.56
+          ]
+        },
+        {
+          "idx": 19,
+          "kind": "picture",
+          "name": "Picture Placeholder 56",
+          "geom_in": [
+            6.32,
+            8.04,
+            1.37,
+            0.56
+          ]
+        },
+        {
+          "idx": 20,
+          "kind": "picture",
+          "name": "Picture Placeholder 56",
+          "geom_in": [
+            7.87,
+            8.04,
+            1.37,
+            0.56
+          ]
+        },
+        {
+          "idx": 21,
+          "kind": "picture",
+          "name": "Picture Placeholder 56",
+          "geom_in": [
+            9.41,
+            8.04,
+            1.37,
+            0.56
+          ]
+        },
+        {
+          "idx": 22,
+          "kind": "picture",
+          "name": "Picture Placeholder 63",
+          "geom_in": [
+            12.26,
+            8.72,
+            0.73,
+            0.73
+          ]
+        },
+        {
+          "idx": 11,
+          "kind": "picture",
+          "name": "Picture Placeholder 63",
+          "geom_in": [
+            1.79,
+            4.14,
+            0.27,
+            0.27
+          ]
+        },
+        {
+          "idx": 24,
+          "kind": "picture",
+          "name": "Picture Placeholder 63",
+          "geom_in": [
+            12.96,
+            3.91,
+            0.58,
+            0.58
+          ]
+        },
+        {
+          "idx": 25,
+          "kind": "picture",
+          "name": "Picture Placeholder 63",
+          "geom_in": [
+            15.09,
+            3.91,
+            0.58,
+            0.58
+          ]
+        },
+        {
+          "idx": 26,
+          "kind": "picture",
+          "name": "Picture Placeholder 63",
+          "geom_in": [
+            17.25,
+            3.91,
+            0.58,
+            0.58
+          ]
+        },
+        {
+          "idx": 10,
+          "kind": "text",
+          "name": "Text Placeholder 11",
+          "geom_in": [
+            13.15,
+            8.68,
+            5.5,
+            0.44
+          ]
+        },
+        {
+          "idx": 28,
+          "kind": "text",
+          "name": "Text Placeholder 11",
+          "geom_in": [
+            13.15,
+            9.25,
+            5.5,
+            0.21
+          ]
+        },
+        {
+          "idx": 33,
+          "kind": "text",
+          "name": "Text Placeholder 28",
+          "geom_in": [
+            0.96,
+            1.82,
+            18.09,
+            0.51
+          ]
+        },
+        {
+          "idx": 34,
+          "kind": "text",
+          "name": "Text Placeholder 30",
+          "geom_in": [
+            2.57,
+            4.06,
+            8.2,
+            0.91
+          ]
+        },
+        {
+          "idx": 35,
+          "kind": "picture",
+          "name": "Picture Placeholder 63",
+          "geom_in": [
+            1.79,
+            5.29,
+            0.27,
+            0.27
+          ]
+        },
+        {
+          "idx": 36,
+          "kind": "text",
+          "name": "Text Placeholder 30",
+          "geom_in": [
+            2.57,
+            5.2,
+            8.2,
+            0.85
+          ]
+        },
+        {
+          "idx": 37,
+          "kind": "picture",
+          "name": "Picture Placeholder 63",
+          "geom_in": [
+            1.79,
+            6.43,
+            0.27,
+            0.27
+          ]
+        },
+        {
+          "idx": 38,
+          "kind": "text",
+          "name": "Text Placeholder 30",
+          "geom_in": [
+            2.57,
+            6.35,
+            8.2,
+            0.85
+          ]
+        },
+        {
+          "idx": 39,
+          "kind": "text",
+          "name": "Text Placeholder 42",
+          "geom_in": [
+            1.68,
+            9.02,
+            9.16,
+            0.44
+          ]
+        },
+        {
+          "idx": 40,
+          "kind": "text",
+          "name": "Text Placeholder 44",
+          "geom_in": [
+            12.26,
+            7.08,
+            6.42,
+            1.48
+          ]
+        },
+        {
+          "idx": 41,
+          "kind": "text",
+          "name": "Text Placeholder 48",
+          "geom_in": [
+            12.45,
+            5.03,
+            1.61,
+            0.68
+          ]
+        },
+        {
+          "idx": 42,
+          "kind": "text",
+          "name": "Text Placeholder 48",
+          "geom_in": [
+            14.64,
+            5.03,
+            1.61,
+            0.68
+          ]
+        },
+        {
+          "idx": 43,
+          "kind": "text",
+          "name": "Text Placeholder 48",
+          "geom_in": [
+            16.74,
+            5.03,
+            1.61,
+            0.68
+          ]
+        },
+        {
+          "idx": 44,
+          "kind": "text",
+          "name": "Text Placeholder 11",
+          "geom_in": [
+            1.62,
+            10.34,
+            1.95,
+            0.26
+          ]
+        }
+      ]
+    },
+    "Key Numbers – 3": {
+      "title": 0,
+      "footer": 10,
+      "content_order": [
+        41,
+        42,
+        43,
+        26,
+        32,
+        33
+      ],
+      "text_slots": [
+        41,
+        42,
+        43,
+        26,
+        32,
+        33
+      ],
+      "picture_slots": [
+        11,
+        12,
+        13
+      ],
+      "slots": [
+        {
+          "idx": 0,
+          "kind": "text",
+          "name": "Title 1",
+          "geom_in": [
+            0.96,
+            0.6,
+            18.15,
+            1.36
+          ]
+        },
+        {
+          "idx": 11,
+          "kind": "picture",
+          "name": "Picture Placeholder 63",
+          "geom_in": [
+            3.6,
+            3.75,
+            0.55,
+            0.55
+          ]
+        },
+        {
+          "idx": 12,
+          "kind": "picture",
+          "name": "Picture Placeholder 63",
+          "geom_in": [
+            9.73,
+            3.75,
+            0.55,
+            0.55
+          ]
+        },
+        {
+          "idx": 13,
+          "kind": "picture",
+          "name": "Picture Placeholder 63",
+          "geom_in": [
+            15.85,
+            3.75,
+            0.55,
+            0.55
+          ]
+        },
+        {
+          "idx": 26,
+          "kind": "text",
+          "name": "Text Placeholder 3",
+          "geom_in": [
+            1.39,
+            6.99,
+            5.09,
+            0.71
+          ]
+        },
+        {
+          "idx": 32,
+          "kind": "text",
+          "name": "Text Placeholder 3",
+          "geom_in": [
+            7.45,
+            6.99,
+            5.09,
+            0.71
+          ]
+        },
+        {
+          "idx": 33,
+          "kind": "text",
+          "name": "Text Placeholder 3",
+          "geom_in": [
+            13.58,
+            6.99,
+            5.09,
+            0.71
+          ]
+        },
+        {
+          "idx": 10,
+          "kind": "text",
+          "name": "Text Placeholder 11",
+          "geom_in": [
+            1.62,
+            10.34,
+            1.95,
+            0.26
+          ]
+        },
+        {
+          "idx": 41,
+          "kind": "text",
+          "name": "Text Placeholder 48",
+          "geom_in": [
+            0.94,
+            4.74,
+            5.9,
+            1.69
+          ]
+        },
+        {
+          "idx": 42,
+          "kind": "text",
+          "name": "Text Placeholder 48",
+          "geom_in": [
+            7.04,
+            4.74,
+            5.9,
+            1.69
+          ]
+        },
+        {
+          "idx": 43,
+          "kind": "text",
+          "name": "Text Placeholder 48",
+          "geom_in": [
+            13.16,
+            4.74,
+            5.9,
+            1.69
+          ]
+        }
+      ]
+    },
+    "Key Numbers – 6": {
+      "title": 0,
+      "footer": 10,
+      "content_order": [
+        31,
+        33,
+        36,
+        26,
+        34,
+        37,
+        45,
+        39,
+        42,
+        46,
+        40,
+        43
+      ],
+      "text_slots": [
+        31,
+        33,
+        36,
+        26,
+        34,
+        37,
+        45,
+        39,
+        42,
+        46,
+        40,
+        43
+      ],
+      "picture_slots": [
+        25,
+        32,
+        35,
+        44,
+        38,
+        41
+      ],
+      "slots": [
+        {
+          "idx": 0,
+          "kind": "text",
+          "name": "Title 1",
+          "geom_in": [
+            0.96,
+            0.6,
+            18.15,
+            1.36
+          ]
+        },
+        {
+          "idx": 25,
+          "kind": "picture",
+          "name": "Picture Placeholder 63",
+          "geom_in": [
+            3.98,
+            3.21,
+            0.33,
+            0.33
+          ]
+        },
+        {
+          "idx": 31,
+          "kind": "text",
+          "name": "Text Placeholder 6",
+          "geom_in": [
+            2.7,
+            3.92,
+            2.88,
+            0.82
+          ]
+        },
+        {
+          "idx": 26,
+          "kind": "text",
+          "name": "Text Placeholder 3",
+          "geom_in": [
+            2.14,
+            4.84,
+            4.0,
+            0.27
+          ]
+        },
+        {
+          "idx": 32,
+          "kind": "picture",
+          "name": "Picture Placeholder 63",
+          "geom_in": [
+            9.94,
+            3.21,
+            0.33,
+            0.33
+          ]
+        },
+        {
+          "idx": 33,
+          "kind": "text",
+          "name": "Text Placeholder 6",
+          "geom_in": [
+            8.67,
+            3.92,
+            2.88,
+            0.82
+          ]
+        },
+        {
+          "idx": 34,
+          "kind": "text",
+          "name": "Text Placeholder 3",
+          "geom_in": [
+            8.11,
+            4.84,
+            4.0,
+            0.27
+          ]
+        },
+        {
+          "idx": 35,
+          "kind": "picture",
+          "name": "Picture Placeholder 63",
+          "geom_in": [
+            15.74,
+            3.21,
+            0.33,
+            0.33
+          ]
+        },
+        {
+          "idx": 36,
+          "kind": "text",
+          "name": "Text Placeholder 6",
+          "geom_in": [
+            14.47,
+            3.92,
+            2.88,
+            0.82
+          ]
+        },
+        {
+          "idx": 37,
+          "kind": "text",
+          "name": "Text Placeholder 3",
+          "geom_in": [
+            13.91,
+            4.84,
+            4.0,
+            0.27
+          ]
+        },
+        {
+          "idx": 38,
+          "kind": "picture",
+          "name": "Picture Placeholder 63",
+          "geom_in": [
+            9.94,
+            6.78,
+            0.33,
+            0.33
+          ]
+        },
+        {
+          "idx": 39,
+          "kind": "text",
+          "name": "Text Placeholder 6",
+          "geom_in": [
+            8.67,
+            7.49,
+            2.88,
+            0.82
+          ]
+        },
+        {
+          "idx": 40,
+          "kind": "text",
+          "name": "Text Placeholder 3",
+          "geom_in": [
+            8.11,
+            8.41,
+            4.0,
+            0.27
+          ]
+        },
+        {
+          "idx": 41,
+          "kind": "picture",
+          "name": "Picture Placeholder 63",
+          "geom_in": [
+            15.74,
+            6.78,
+            0.33,
+            0.33
+          ]
+        },
+        {
+          "idx": 42,
+          "kind": "text",
+          "name": "Text Placeholder 6",
+          "geom_in": [
+            14.47,
+            7.49,
+            2.88,
+            0.82
+          ]
+        },
+        {
+          "idx": 43,
+          "kind": "text",
+          "name": "Text Placeholder 3",
+          "geom_in": [
+            13.91,
+            8.41,
+            4.0,
+            0.27
+          ]
+        },
+        {
+          "idx": 44,
+          "kind": "picture",
+          "name": "Picture Placeholder 63",
+          "geom_in": [
+            3.98,
+            6.78,
+            0.33,
+            0.33
+          ]
+        },
+        {
+          "idx": 45,
+          "kind": "text",
+          "name": "Text Placeholder 6",
+          "geom_in": [
+            2.7,
+            7.49,
+            2.88,
+            0.82
+          ]
+        },
+        {
+          "idx": 46,
+          "kind": "text",
+          "name": "Text Placeholder 3",
+          "geom_in": [
+            2.14,
+            8.41,
+            4.0,
+            0.27
+          ]
+        },
+        {
+          "idx": 10,
+          "kind": "text",
+          "name": "Text Placeholder 11",
+          "geom_in": [
+            1.62,
+            10.34,
+            1.95,
+            0.26
+          ]
+        }
+      ]
+    },
+    "Cards – 4": {
+      "title": 0,
+      "footer": 10,
+      "content_order": [
+        25,
+        27,
+        26,
+        28,
+        29,
+        31,
+        30,
+        32
+      ],
+      "text_slots": [
+        25,
+        27,
+        26,
+        28,
+        29,
+        31,
+        30,
+        32
+      ],
+      "picture_slots": [
+        11,
+        19,
+        16,
+        22
+      ],
+      "slots": [
+        {
+          "idx": 0,
+          "kind": "text",
+          "name": "Title 1",
+          "geom_in": [
+            0.96,
+            0.92,
+            18.15,
+            1.36
+          ]
+        },
+        {
+          "idx": 11,
+          "kind": "picture",
+          "name": "Picture Placeholder 63",
+          "geom_in": [
+            1.5,
+            3.48,
+            0.46,
+            0.46
+          ]
+        },
+        {
+          "idx": 16,
+          "kind": "picture",
+          "name": "Picture Placeholder 63",
+          "geom_in": [
+            1.5,
+            7.07,
+            0.46,
+            0.46
+          ]
+        },
+        {
+          "idx": 19,
+          "kind": "picture",
+          "name": "Picture Placeholder 63",
+          "geom_in": [
+            10.64,
+            3.48,
+            0.46,
+            0.46
+          ]
+        },
+        {
+          "idx": 22,
+          "kind": "picture",
+          "name": "Picture Placeholder 63",
+          "geom_in": [
+            10.64,
+            7.07,
+            0.46,
+            0.46
+          ]
+        },
+        {
+          "idx": 25,
+          "kind": "text",
+          "name": "Text Placeholder 3",
+          "geom_in": [
+            1.41,
+            4.23,
+            8.0,
+            0.65
+          ]
+        },
+        {
+          "idx": 26,
+          "kind": "text",
+          "name": "Text Placeholder 5",
+          "geom_in": [
+            1.39,
+            5.05,
+            8.0,
+            0.85
+          ]
+        },
+        {
+          "idx": 27,
+          "kind": "text",
+          "name": "Text Placeholder 3",
+          "geom_in": [
+            10.53,
+            4.23,
+            8.0,
+            0.65
+          ]
+        },
+        {
+          "idx": 28,
+          "kind": "text",
+          "name": "Text Placeholder 5",
+          "geom_in": [
+            10.53,
+            5.05,
+            8.0,
+            0.85
+          ]
+        },
+        {
+          "idx": 29,
+          "kind": "text",
+          "name": "Text Placeholder 3",
+          "geom_in": [
+            1.41,
+            7.82,
+            8.0,
+            0.65
+          ]
+        },
+        {
+          "idx": 30,
+          "kind": "text",
+          "name": "Text Placeholder 5",
+          "geom_in": [
+            1.39,
+            8.65,
+            8.0,
+            0.85
+          ]
+        },
+        {
+          "idx": 31,
+          "kind": "text",
+          "name": "Text Placeholder 3",
+          "geom_in": [
+            10.53,
+            7.82,
+            8.0,
+            0.65
+          ]
+        },
+        {
+          "idx": 32,
+          "kind": "text",
+          "name": "Text Placeholder 5",
+          "geom_in": [
+            10.53,
+            8.65,
+            8.0,
+            0.85
+          ]
+        },
+        {
+          "idx": 10,
+          "kind": "text",
+          "name": "Text Placeholder 11",
+          "geom_in": [
+            1.62,
+            10.34,
+            1.95,
+            0.26
+          ]
+        }
+      ]
+    },
+    "Cards – 6": {
+      "title": 0,
+      "footer": 10,
+      "content_order": [
+        26,
+        27,
+        28,
+        31,
+        29,
+        30
+      ],
+      "text_slots": [
+        26,
+        27,
+        28,
+        31,
+        29,
+        30
+      ],
+      "picture_slots": [
+        25,
+        17,
+        18,
+        21,
+        24,
+        20
+      ],
+      "slots": [
+        {
+          "idx": 0,
+          "kind": "text",
+          "name": "Title 1",
+          "geom_in": [
+            0.96,
+            0.92,
+            18.15,
+            1.36
+          ]
+        },
+        {
+          "idx": 17,
+          "kind": "picture",
+          "name": "Picture Placeholder 63",
+          "geom_in": [
+            7.61,
+            3.63,
+            0.46,
+            0.46
+          ]
+        },
+        {
+          "idx": 18,
+          "kind": "picture",
+          "name": "Picture Placeholder 63",
+          "geom_in": [
+            13.72,
+            3.63,
+            0.46,
+            0.46
+          ]
+        },
+        {
+          "idx": 20,
+          "kind": "picture",
+          "name": "Picture Placeholder 63",
+          "geom_in": [
+            13.72,
+            7.21,
+            0.46,
+            0.46
+          ]
+        },
+        {
+          "idx": 21,
+          "kind": "picture",
+          "name": "Picture Placeholder 63",
+          "geom_in": [
+            1.53,
+            7.21,
+            0.46,
+            0.46
+          ]
+        },
+        {
+          "idx": 24,
+          "kind": "picture",
+          "name": "Picture Placeholder 63",
+          "geom_in": [
+            7.61,
+            7.21,
+            0.46,
+            0.46
+          ]
+        },
+        {
+          "idx": 25,
+          "kind": "picture",
+          "name": "Picture Placeholder 63",
+          "geom_in": [
+            1.5,
+            3.63,
+            0.46,
+            0.46
+          ]
+        },
+        {
+          "idx": 26,
+          "kind": "text",
+          "name": "Text Placeholder 3",
+          "geom_in": [
+            1.39,
+            4.5,
+            5.09,
+            1.47
+          ]
+        },
+        {
+          "idx": 27,
+          "kind": "text",
+          "name": "Text Placeholder 3",
+          "geom_in": [
+            7.5,
+            4.5,
+            5.09,
+            1.47
+          ]
+        },
+        {
+          "idx": 28,
+          "kind": "text",
+          "name": "Text Placeholder 3",
+          "geom_in": [
+            13.61,
+            4.5,
+            5.09,
+            1.47
+          ]
+        },
+        {
+          "idx": 29,
+          "kind": "text",
+          "name": "Text Placeholder 3",
+          "geom_in": [
+            7.5,
+            8.09,
+            5.09,
+            1.47
+          ]
+        },
+        {
+          "idx": 30,
+          "kind": "text",
+          "name": "Text Placeholder 3",
+          "geom_in": [
+            13.61,
+            8.09,
+            5.09,
+            1.47
+          ]
+        },
+        {
+          "idx": 31,
+          "kind": "text",
+          "name": "Text Placeholder 3",
+          "geom_in": [
+            1.39,
+            8.09,
+            5.09,
+            1.47
+          ]
+        },
+        {
+          "idx": 10,
+          "kind": "text",
+          "name": "Text Placeholder 11",
+          "geom_in": [
+            1.62,
+            10.34,
+            1.95,
+            0.26
+          ]
+        }
+      ]
+    },
+    "Timeline / Roadmap (4 Phases)": {
+      "title": 0,
+      "footer": 10,
+      "content_order": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26,
+        28,
+        30,
+        25,
+        27,
+        29,
+        31
+      ],
+      "text_slots": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26,
+        28,
+        30,
+        25,
+        27,
+        29,
+        31
+      ],
+      "picture_slots": [],
+      "slots": [
+        {
+          "idx": 0,
+          "kind": "text",
+          "name": "Title 1",
+          "geom_in": [
+            0.96,
+            0.6,
+            17.71,
+            1.36
+          ]
+        },
+        {
+          "idx": 19,
+          "kind": "text",
+          "name": "Text Placeholder 10",
+          "geom_in": [
+            0.96,
+            2.12,
+            17.73,
+            0.44
+          ]
+        },
+        {
+          "idx": 20,
+          "kind": "text",
+          "name": "Text Placeholder 7",
+          "geom_in": [
+            0.94,
+            3.59,
+            4.23,
+            0.38
+          ]
+        },
+        {
+          "idx": 21,
+          "kind": "text",
+          "name": "Text Placeholder 7",
+          "geom_in": [
+            5.44,
+            3.59,
+            4.23,
+            0.38
+          ]
+        },
+        {
+          "idx": 22,
+          "kind": "text",
+          "name": "Text Placeholder 7",
+          "geom_in": [
+            9.94,
+            3.59,
+            4.23,
+            0.38
+          ]
+        },
+        {
+          "idx": 23,
+          "kind": "text",
+          "name": "Text Placeholder 7",
+          "geom_in": [
+            14.44,
+            3.59,
+            4.23,
+            0.38
+          ]
+        },
+        {
+          "idx": 24,
+          "kind": "text",
+          "name": "Text Placeholder 7",
+          "geom_in": [
+            0.94,
+            5.34,
+            4.23,
+            0.86
+          ]
+        },
+        {
+          "idx": 25,
+          "kind": "text",
+          "name": "Text Placeholder 7",
+          "geom_in": [
+            0.94,
+            6.63,
+            4.23,
+            3.33
+          ]
+        },
+        {
+          "idx": 26,
+          "kind": "text",
+          "name": "Text Placeholder 7",
+          "geom_in": [
+            5.44,
+            5.34,
+            4.23,
+            0.86
+          ]
+        },
+        {
+          "idx": 27,
+          "kind": "text",
+          "name": "Text Placeholder 7",
+          "geom_in": [
+            5.44,
+            6.63,
+            4.23,
+            3.33
+          ]
+        },
+        {
+          "idx": 28,
+          "kind": "text",
+          "name": "Text Placeholder 7",
+          "geom_in": [
+            9.94,
+            5.34,
+            4.23,
+            0.86
+          ]
+        },
+        {
+          "idx": 29,
+          "kind": "text",
+          "name": "Text Placeholder 7",
+          "geom_in": [
+            9.94,
+            6.63,
+            4.23,
+            3.33
+          ]
+        },
+        {
+          "idx": 30,
+          "kind": "text",
+          "name": "Text Placeholder 7",
+          "geom_in": [
+            14.44,
+            5.34,
+            4.23,
+            0.86
+          ]
+        },
+        {
+          "idx": 31,
+          "kind": "text",
+          "name": "Text Placeholder 7",
+          "geom_in": [
+            14.44,
+            6.63,
+            4.23,
+            3.33
+          ]
+        },
+        {
+          "idx": 10,
+          "kind": "text",
+          "name": "Text Placeholder 11",
+          "geom_in": [
+            1.62,
+            10.34,
+            1.95,
+            0.26
+          ]
+        }
+      ]
+    },
+    "Timeline / Custom": {
+      "title": 0,
+      "footer": 10,
+      "content_order": [
+        19,
+        16
+      ],
+      "text_slots": [
+        19,
+        16
+      ],
+      "picture_slots": [],
+      "slots": [
+        {
+          "idx": 0,
+          "kind": "text",
+          "name": "Title 1",
+          "geom_in": [
+            0.96,
+            0.6,
+            17.71,
+            1.36
+          ]
+        },
+        {
+          "idx": 19,
+          "kind": "text",
+          "name": "Text Placeholder 10",
+          "geom_in": [
+            0.96,
+            2.12,
+            17.73,
+            0.44
+          ]
+        },
+        {
+          "idx": 10,
+          "kind": "text",
+          "name": "Text Placeholder 11",
+          "geom_in": [
+            1.62,
+            10.34,
+            1.95,
+            0.26
+          ]
+        },
+        {
+          "idx": 16,
+          "kind": "text",
+          "name": "Text Placeholder 8",
+          "geom_in": [
+            0.96,
+            5.12,
+            18.1,
+            4.7
+          ]
+        }
+      ]
+    },
+    "Process / Steps": {
+      "title": 0,
+      "footer": 10,
+      "content_order": [
+        19,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "text_slots": [
+        19,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "picture_slots": [
+        25,
+        26,
+        27
+      ],
+      "slots": [
+        {
+          "idx": 0,
+          "kind": "text",
+          "name": "Title 1",
+          "geom_in": [
+            0.0,
+            0.57,
+            20.0,
+            1.36
+          ]
+        },
+        {
+          "idx": 25,
+          "kind": "picture",
+          "name": "Picture Placeholder 63",
+          "geom_in": [
+            2.31,
+            3.11,
+            0.78,
+            0.79
+          ]
+        },
+        {
+          "idx": 26,
+          "kind": "picture",
+          "name": "Picture Placeholder 63",
+          "geom_in": [
+            8.29,
+            3.11,
+            0.78,
+            0.79
+          ]
+        },
+        {
+          "idx": 27,
+          "kind": "picture",
+          "name": "Picture Placeholder 63",
+          "geom_in": [
+            14.41,
+            3.11,
+            0.78,
+            0.79
+          ]
+        },
+        {
+          "idx": 19,
+          "kind": "text",
+          "name": "Text Placeholder 10",
+          "geom_in": [
+            2.02,
+            4.72,
+            3.95,
+            1.06
+          ]
+        },
+        {
+          "idx": 28,
+          "kind": "text",
+          "name": "Text Placeholder 10",
+          "geom_in": [
+            8.07,
+            4.72,
+            3.95,
+            1.06
+          ]
+        },
+        {
+          "idx": 29,
+          "kind": "text",
+          "name": "Text Placeholder 10",
+          "geom_in": [
+            14.19,
+            4.72,
+            3.95,
+            1.06
+          ]
+        },
+        {
+          "idx": 30,
+          "kind": "text",
+          "name": "Text Placeholder 5",
+          "geom_in": [
+            2.02,
+            6.33,
+            3.98,
+            2.18
+          ]
+        },
+        {
+          "idx": 31,
+          "kind": "text",
+          "name": "Text Placeholder 5",
+          "geom_in": [
+            8.07,
+            6.33,
+            3.98,
+            2.18
+          ]
+        },
+        {
+          "idx": 32,
+          "kind": "text",
+          "name": "Text Placeholder 5",
+          "geom_in": [
+            14.19,
+            6.33,
+            3.98,
+            2.18
+          ]
+        },
+        {
+          "idx": 33,
+          "kind": "text",
+          "name": "Text Placeholder 5",
+          "geom_in": [
+            2.02,
+            8.74,
+            3.98,
+            0.52
+          ]
+        },
+        {
+          "idx": 34,
+          "kind": "text",
+          "name": "Text Placeholder 5",
+          "geom_in": [
+            8.07,
+            8.74,
+            3.98,
+            0.52
+          ]
+        },
+        {
+          "idx": 35,
+          "kind": "text",
+          "name": "Text Placeholder 5",
+          "geom_in": [
+            14.19,
+            8.74,
+            3.98,
+            0.52
+          ]
+        },
+        {
+          "idx": 10,
+          "kind": "text",
+          "name": "Text Placeholder 11",
+          "geom_in": [
+            1.62,
+            10.34,
+            1.95,
+            0.26
+          ]
+        }
+      ]
+    },
+    "Quote – Centered": {
+      "title": 0,
+      "footer": 10,
+      "content_order": [
+        13,
+        11
+      ],
+      "text_slots": [
+        13,
+        11
+      ],
+      "picture_slots": [],
+      "slots": [
+        {
+          "idx": 11,
+          "kind": "text",
+          "name": "Content Placeholder 10",
+          "geom_in": [
+            8.87,
+            8.75,
+            2.27,
+            0.72
+          ]
+        },
+        {
+          "idx": 13,
+          "kind": "text",
+          "name": "Text Placeholder 23",
+          "geom_in": [
+            2.85,
+            7.88,
+            14.29,
+            0.51
+          ]
+        },
+        {
+          "idx": 0,
+          "kind": "text",
+          "name": "Title 1",
+          "geom_in": [
+            2.86,
+            3.69,
+            14.28,
+            4.17
+          ]
+        },
+        {
+          "idx": 10,
+          "kind": "text",
+          "name": "Text Placeholder 11",
+          "geom_in": [
+            1.62,
+            10.34,
+            1.95,
+            0.26
+          ]
+        }
+      ]
+    },
+    "Quote – Left Aligned": {
+      "title": 0,
+      "footer": 10,
+      "content_order": [
+        13,
+        14
+      ],
+      "text_slots": [
+        13,
+        14
+      ],
+      "picture_slots": [],
+      "slots": [
+        {
+          "idx": 13,
+          "kind": "text",
+          "name": "Text Placeholder 23",
+          "geom_in": [
+            0.94,
+            9.16,
+            3.98,
+            0.51
+          ]
+        },
+        {
+          "idx": 0,
+          "kind": "text",
+          "name": "Title 1",
+          "geom_in": [
+            0.94,
+            2.32,
+            18.28,
+            6.38
+          ]
+        },
+        {
+          "idx": 10,
+          "kind": "text",
+          "name": "Text Placeholder 11",
+          "geom_in": [
+            1.62,
+            10.34,
+            1.95,
+            0.26
+          ]
+        },
+        {
+          "idx": 14,
+          "kind": "text",
+          "name": "Content Placeholder 10",
+          "geom_in": [
+            16.95,
+            9.16,
+            2.27,
+            0.72
+          ]
+        }
+      ]
+    },
+    "Contact": {
+      "title": 0,
+      "footer": 10,
+      "content_order": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "text_slots": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "picture_slots": [
+        11
+      ],
+      "slots": [
+        {
+          "idx": 0,
+          "kind": "text",
+          "name": "Title 1",
+          "geom_in": [
+            0.99,
+            7.64,
+            10.5,
+            2.05
+          ]
+        },
+        {
+          "idx": 11,
+          "kind": "picture",
+          "name": "Picture Placeholder 17",
+          "geom_in": [
+            13.6,
+            2.96,
+            3.39,
+            3.33
+          ]
+        },
+        {
+          "idx": 12,
+          "kind": "text",
+          "name": "Text Placeholder 21",
+          "geom_in": [
+            13.2,
+            6.9,
+            4.19,
+            0.44
+          ]
+        },
+        {
+          "idx": 13,
+          "kind": "text",
+          "name": "Text Placeholder 23",
+          "geom_in": [
+            13.21,
+            7.36,
+            4.17,
+            0.51
+          ]
+        },
+        {
+          "idx": 14,
+          "kind": "text",
+          "name": "Text Placeholder 23",
+          "geom_in": [
+            13.21,
+            8.04,
+            4.18,
+            0.38
+          ]
+        },
+        {
+          "idx": 10,
+          "kind": "text",
+          "name": "Text Placeholder 11",
+          "geom_in": [
+            1.62,
+            10.34,
+            1.95,
+            0.26
+          ]
+        },
+        {
+          "idx": 15,
+          "kind": "text",
+          "name": "Text Placeholder 23",
+          "geom_in": [
+            13.21,
+            8.44,
+            4.18,
+            0.34
+          ]
+        }
+      ]
+    }
+  }
+}
