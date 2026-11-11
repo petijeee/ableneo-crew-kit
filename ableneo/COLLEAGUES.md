@@ -38,7 +38,13 @@ ho napíše, brand-guardian ho skontroluje proti pravidlám.
 - Bez hype a korporátnych fráz. Calm, confident, precise, human.
 - Pred odoslaním čohokoľvek von pusti `/brand-check`.
 
-## 4. Kde je čo
+## 4. Čo platí najviac
+
+**ABLENEO Design Guidelines 2025** sú najvyššia autorita. Keď sa niečo v repe s nimi bije,
+vyhrávajú guidelines. Výťah je v `ableneo/knowledge/design-manual.md`, PDF je na Confluence.
+Tón a positioning, ktoré manuál nerieši, idú z Brand Strategy.
+
+## 5. Kde je čo
 
 - `ableneo/knowledge/`: zdroj pravdy (brand, voice, positioning, audience, offering, metóda).
   Začni v `ableneo/knowledge/README.md`. Pri vizuáloch najprv `design-manual.md`.
@@ -47,7 +53,7 @@ ho napíše, brand-guardian ho skontroluje proti pravidlám.
 - `ableneo/ABLENEO.md`: operating manuál pre agentov (kto rieši čo).
 - `ableneo/outputs/`: sem sa ukladajú výstupy (`YYYY-MM-DD-ableneo-*`).
 
-## 5. Čo je len u Petra (vyžaduje kľúče, nie je v repe)
+## 6. Čo je len u Petra (vyžaduje kľúče, nie je v repe)
 
 Tieto veci bežia v Peterovom prostredí, lebo potrebujú prístupové kľúče:
 
@@ -57,7 +63,7 @@ Tieto veci bežia v Peterovom prostredí, lebo potrebujú prístupové kľúče:
 
 Ty pripravíš a odladíš obsah, finálny publish a metriky idú cez Petra.
 
-## 6. Zlaté pravidlo
+## 7. Zlaté pravidlo
 
 Píš zadania normálne, crew exekvuje na spoločnom knowledge, **človek schvaľuje, čo ide von.**
 Keď sa zmení nejaká pravda o firme (číslo, klient, positioning), uprav ju v

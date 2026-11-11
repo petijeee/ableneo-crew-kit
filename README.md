@@ -1,9 +1,17 @@
-# ableneo-crew
+# ableneo-crew-kit
 
-Unified AI crew for executing all Ableneo outputs. Peter orchestrates, agents execute,
-all grounded in one shared knowledge hub.
+A public brand kit for Ableneo colleagues. Open it in Claude Code, describe what you need,
+and the agents produce decks, posts, visuals and videos that follow the Ableneo brand guidelines.
 
 > **Claim:** *Intelligence that works.*
+
+## Source of truth (in this order)
+1. **ABLENEO Design Guidelines 2025** is the top authority. If anything in this repo conflicts
+   with it, the guidelines win. Distilled in `ableneo/knowledge/design-manual.md`; the PDF lives on Confluence.
+2. **ABLENEO Brand Strategy (FINAL)** for voice, positioning and audience, where the guidelines are silent.
+3. **`ableneo/knowledge/`** distills both. Agents and outputs follow it.
+
+The only documented exceptions are the web rules and the color-coding rule listed in `design-manual.md`.
 
 ## For colleagues
 

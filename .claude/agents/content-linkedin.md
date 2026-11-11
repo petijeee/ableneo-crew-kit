@@ -13,7 +13,7 @@ Read `ableneo/ABLENEO.md`, `ableneo/knowledge/voice-and-tone.md`, `ableneo/knowl
 `positioning.md`, `audience.md`, `offering.md`, `methodology-essa.md`.
 Use real metrics only; if you need a number you do not have, mark it `[METRIC NEEDED]`. The voice rules are non-negotiable.
 
-## Hard voice rules (Peter's rules win)
+## Hard voice rules
 - Numbers over adjectives. Real metrics or `[METRIC NEEDED]`, never invented.
 - **No em dashes.** Comma, period, or restructure.
 - **No two-sentence reject-then-replace** ("We don't X. We do Y."). Contrast lives inside one sentence through specifics.

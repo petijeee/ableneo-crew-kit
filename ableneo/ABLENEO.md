@@ -1,8 +1,9 @@
 # ABLENEO Crew Operating Context
 
 > **This file is always-on context for every agent in this hub.**
-> Read it before producing anything. When in doubt, this file and `/knowledge`
-> are the source of truth. If output conflicts with this file, the output is wrong.
+> Read it before producing anything. The top authority is the **ABLENEO Design Guidelines 2025**
+> (`knowledge/design-manual.md`); this file and `/knowledge` distill it together with the Brand Strategy.
+> If output conflicts with them, the output is wrong.
 
 ---
 
@@ -98,7 +99,7 @@ signature elements, carousel templates). Full tokens & rules: `knowledge/color-p
 
 ## The crew (`.claude/agents/`)
 
-Peter orchestrates. Agents execute, all grounded in this file and `knowledge/`.
+You brief the crew in plain language. Agents execute, all grounded in this file and `knowledge/`.
 
 **Brand layer**
 
@@ -134,4 +135,4 @@ Peter, never invent client numbers.
 
 ---
 
-*Source of truth: ABLENEO Brand Strategy (FINAL) + brand palette + Design Guidelines 2025. If you change the strategy, update this file and `knowledge/` in the same commit.*
+*Source of truth: ABLENEO Design Guidelines 2025 first, then ABLENEO Brand Strategy (FINAL) for voice and positioning. If you change the strategy, update this file and `knowledge/` in the same commit.*

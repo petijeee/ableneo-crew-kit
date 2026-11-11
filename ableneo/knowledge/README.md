@@ -1,7 +1,8 @@
 # Ableneo Knowledge Hub
 
 The structured, distilled source of truth for the Ableneo brand. Every agent reads
-from here. The deck is the origin; these files are the working reference.
+from here. The top authority is the **ABLENEO Design Guidelines 2025** (see `design-manual.md`);
+for voice and positioning the Brand Strategy deck. These files are the working reference.
 
 > **Claim:** *Intelligence that works.*
 
