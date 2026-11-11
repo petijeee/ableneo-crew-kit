@@ -5,6 +5,14 @@
 # Needs: ffmpeg with libass (brew ffmpeg is fine). Ableneo font must be installed for captions.
 set -euo pipefail
 
+# Homebrew's plain `ffmpeg` formula on this Mac is built without libass (no
+# `subtitles` filter). `ffmpeg-full` has it. Prefer it when present.
+if [ -x /opt/homebrew/opt/ffmpeg-full/bin/ffmpeg ]; then
+  FFMPEG=/opt/homebrew/opt/ffmpeg-full/bin/ffmpeg
+else
+  FFMPEG=ffmpeg
+fi
+
 SRC="${1:?usage: make-9x16.sh <clip.mp4> [subtitles.srt] [outdir]}"
 SRT="${2:-}"
 OUTDIR="${3:-$(dirname "$SRC")}"
@@ -13,7 +21,13 @@ OUT="$OUTDIR/${name}-9x16.mp4"
 mkdir -p "$OUTDIR"
 
 # Brand subtitle style (ASS): Ableneo font, white text, charcoal box, lower third.
-STYLE="FontName=Ableneo,FontSize=15,Bold=1,PrimaryColour=&H00FFFFFF,BorderStyle=3,Outline=0,Shadow=0,BackColour=&HB31D2024,Alignment=2,MarginV=300"
+# NOTE: our .srt has no PlayResX/Y header, so libass auto-scales force_style
+# pixel values (FontSize, MarginV) by an internal guessed-resolution factor
+# (~6-7x on a 1920-tall canvas). MarginV=300 explodes past the top of frame
+# and the subtitle silently disappears. MarginV=45 lands it just above the
+# bottom edge, matching the intended "lower third" look. If you touch FontSize,
+# re-check MarginV against it (extract a mid-clip frame and eyeball it).
+STYLE="FontName=Ableneo,FontSize=15,Bold=1,PrimaryColour=&H00FFFFFF,BorderStyle=3,Outline=0,Shadow=0,BackColour=&HB31D2024,Alignment=2,MarginV=45"
 
 # 16:9 -> 1080x1920, charcoal #1D2024 letterbox, centered.
 PAD="scale=1080:-2,pad=1080:1920:(ow-iw)/2:(oh-ih)/2:color=0x1D2024"
@@ -25,6 +39,6 @@ else
 fi
 
 echo "rendering 9:16 -> $OUT"
-ffmpeg -y -i "$SRC" -vf "$VF" -r 30 -c:v libx264 -crf 20 -pix_fmt yuv420p -c:a aac -b:a 128k "$OUT" -loglevel error
+"$FFMPEG" -y -i "$SRC" -vf "$VF" -r 30 -c:v libx264 -crf 20 -pix_fmt yuv420p -c:a aac -b:a 128k "$OUT" -loglevel error
 echo "DONE: $OUT  ($(du -h "$OUT" | cut -f1))"
 echo "Tip: branded intro/outro karty pridaj cez video-pipeline (hyperframes) alebo deck-kit."

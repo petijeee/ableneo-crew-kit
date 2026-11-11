@@ -153,8 +153,7 @@ def _set_text(ph, text, layout_ph=None):
     tf = ph.text_frame
     tf.clear()
     p = tf.paragraphs[0]
-    run = p.runs[0] if p.runs else p.add_run()
-    run.text = str(text)
+    p.text = str(text)   # paragraph setter turns "\n" into <a:br/>; run.text left raw LF (rendered as a space)
     tf.word_wrap = True
 
     base = _base_pt(layout_ph)
@@ -162,7 +161,8 @@ def _set_text(ph, text, layout_ph=None):
         target = _fit_size(str(text), base,
                            Emu(ph.width).inches, Emu(ph.height).inches)
         if target:
-            run.font.size = Pt(target)
+            for run in p.runs:
+                run.font.size = Pt(target)
     else:
         tf.auto_size = MSO_AUTO_SIZE.TEXT_TO_FIT_SHAPE
 

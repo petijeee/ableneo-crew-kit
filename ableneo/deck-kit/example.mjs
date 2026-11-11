@@ -5,7 +5,7 @@ import { resolve, join } from 'path';
 import { createRequire } from 'module';
 import { page, head, arrow, ghost, variants, TOKENS, LIME, CHARCOAL, PERI } from './deck-kit.mjs';
 const require = createRequire(import.meta.url);
-const puppeteer = require('../../ableneo event promo/slides/netousek/node_modules/puppeteer');
+import { puppeteer as kitPuppeteer } from './deck-kit.mjs'; const puppeteer = await kitPuppeteer();
 const dir = resolve('.');
 const TAG = '[ ableneo deck-kit · example ]';
 

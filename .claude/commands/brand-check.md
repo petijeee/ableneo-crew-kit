@@ -8,8 +8,8 @@ Run a brand compliance audit on: **$ARGUMENTS**
 
 Use the `brand-guardian` agent to check against `ableneo/ABLENEO.md` and `ableneo/knowledge/`:
 voice (numbers over adjectives, clear, confident, human, glass-wall test), positioning
-and the enemy checklist, color rules (Lime `#CDDE00` + Charcoal + White; one chromatic
-family on neutrals; never mix; Lime never with accents), typography hierarchy, and logo/
+and the enemy checklist, color rules (Lime `#CDDE00` + Charcoal + White by default; accents
+only as category coding, one family per item, never two in one element, color on neutrals), typography hierarchy, and logo/
 icon usage.
 
 Return:

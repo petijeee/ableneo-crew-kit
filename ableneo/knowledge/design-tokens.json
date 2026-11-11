@@ -3,8 +3,8 @@
   "_meta": {
     "brand": "Ableneo",
     "claim": "Intelligence that works",
-    "source": "ABLENEO Design Guidelines 2025 + brand palette",
-    "note": "Cool/Light grey hex values were shown as swatches without numeric values in the guidelines; fill from the official palette file when needed."
+    "source": "ABLENEO Design Guidelines 2025 + brand palette + official ableneo_presentation_template.pptx (theme1.xml)",
+    "note": "Grey hex values now pinned from the official presentation theme (see color.neutral and presentation.themePalette). Deck (social 4:5) surfaces in 'deck'/'surface' come from the Figma carousel system and are intentionally distinct from the 16:9 presentation surfaces."
   },
   "color": {
     "primary": {
@@ -29,18 +29,19 @@
       "skyBlue": { "value": "#C3D3FD", "cmyk": "20/12/0/0" }
     },
     "neutral": {
-      "steelGrey": { "value": "#49576A", "cmyk": "75/60/42/22" },
-      "coolGrey100": { "value": null },
-      "coolGrey50": { "value": null },
-      "lightGrey100": { "value": null },
-      "lightGrey50": { "value": null }
+      "steelGrey": { "value": "#495769", "cmyk": "75/60/42/22", "note": "Pinned from presentation theme accent3 (#495769); guidelines swatch read ~#49576A." },
+      "coolGrey100": { "value": "#97A5B8", "note": "Presentation theme accent4." },
+      "coolGrey50": { "value": "#BAC7DA", "note": "Presentation theme accent5." },
+      "lightGrey100": { "value": "#E7EBEF", "note": "Presentation theme accent6." },
+      "lightGrey50": { "value": "#F5F5F5", "note": "Presentation theme lt2 (light surface)." }
     },
     "_rules": {
-      "oneChromaticFamilyAtATime": true,
+      "defaultFamily": "lime",
       "chromaticFamilies": ["lime", "skyBlue", "violet"],
+      "categoryCoding": "several families allowed only as category coding: one family per item, kept through the piece (since 2026-10-05)",
+      "neverTwoFamiliesInOneElement": true,
       "chromaticOnlyOnNeutralBackgrounds": true,
-      "neverMixChromaticFamilies": true,
-      "limeNeverWithAccents": true
+      "noLimeTypeOnAccents": true
     }
   },
   "typography": {
@@ -95,11 +96,147 @@
       "body": { "weight": 400 }
     },
     "accentRole": {
-      "periwinkle": "#C3D3FD — primary accent for emphasis blocks and pill buttons; the one chromatic family besides lime, never mixed with lime on the same slide"
+      "periwinkle": "#C3D3FD, primary accent for emphasis blocks and pill buttons; next to lime only as category coding, never inside the same element as lime"
     },
     "signatureDevices": ["background grid lines", "top lime bar (partial width)", "giant ghost page number", "header row (tag + page number)", "arrow pill bottom-right", "logo bottom-left (top on cover/CTA)", "color blocks holding the key statement", "icon-in-circle for lists", "pill highlight around a key word"],
     "slideVariants": ["dark (#1D2024)", "light (#F1F1EF)", "lime (#CDDE00)", "periwinkle accent blocks"],
     "components": ["page", "head(tag,num)", "ghost(n)", "arrow(stroke)", "topbar", "card", "pillbtn", "variants.dark/light/lime"],
     "kit": "ableneo/deck-kit/deck-kit.mjs (import tokens, css, logos, helpers). Example: deck-kit/example.mjs. Full deck: 'ableneo event promo/carousel-lifecycle/render-v3.mjs'."
+  },
+  "presentation": {
+    "_note": "16:9 slide-deck system. Source of truth: ableneo/knowledge/templates/ableneo_presentation_template.pptx (1 master, 19 layouts, embeds the real Ableneo OTFs). presentation-builder must build against these layout names.",
+    "format": { "ratio": "16:9", "emu": { "cx": 18288000, "cy": 10287000 }, "inches": "20 x 11.25", "px@96dpi": "1920 x 1080" },
+    "fonts": {
+      "embedded": ["Ableneo", "Ableneo Regular", "Ableneo Medium", "Ableneo SemiBold", "Ableneo Bold"],
+      "note": "The pptx embeds the brand OTFs, so the deck renders on-brand on any machine. theme1.xml major/minor font is Office-default Aptos; the layouts override to Ableneo."
+    },
+    "themePalette": {
+      "_note": "Exact theme1.xml color slots, verbatim. Authoritative for the presentation surface.",
+      "dk1": "#1D2024", "lt1": "#FFFFFF", "dk2": "#282B2F", "lt2": "#F5F5F5",
+      "accent1": "#CDDE00", "accent2": "#C3D3FD", "accent3": "#495769",
+      "accent4": "#97A5B8", "accent5": "#BAC7DA", "accent6": "#E7EBEF",
+      "hlink": "#C3D3FC", "folHlink": "#A0A0A0"
+    },
+    "layouts": {
+      "_note": "19 layouts in the master, by name. presentation-builder should pick by intent and never invent off-template layouts.",
+      "Cover": "Opening title slide.",
+      "Section Divider / Primary": "Major section break, primary (lime/charcoal) treatment.",
+      "Section Divider / Secondary": "Section break, secondary (periwinkle/neutral) treatment.",
+      "Agenda / Overview": "Agenda or contents list.",
+      "Title Only": "Bare title slide, no body.",
+      "Text – Single Column": "One column of running text.",
+      "Text – Two Columns": "Two-column text.",
+      "Text + Visual": "Text alongside an image/visual.",
+      "Overview / Mixed content": "Mixed content overview.",
+      "Key Numbers – 3": "Three big stats.",
+      "Key Numbers – 6": "Six stats grid.",
+      "Cards – 4": "Four card tiles.",
+      "Cards – 6": "Six card tiles.",
+      "Timeline / Roadmap (4 Phases)": "Four-phase roadmap.",
+      "Timeline / Custom": "Custom timeline.",
+      "Process / Steps": "Step/process flow.",
+      "Quote – Centered": "Centered pull quote.",
+      "Quote – Left Aligned": "Left-aligned pull quote.",
+      "Contact": "Closing contact / CTA slide."
+    }
+  },
+  "motion": {
+    "_meta": {
+      "system": "Lock-in",
+      "idea": "Intelligence that works, in motion: every move is fast, has a purpose and ends locked in place. Nothing floats.",
+      "verbs": ["snap", "draw", "count"],
+      "source": "Codified from existing Hyperframes/GSAP compositions (video-system/proof, video-pipeline/*). Spec: video-system/MOTION.md, helper: video-system/motion.mjs",
+      "units": "duration in seconds, distance in px at 1080px canvas width (scale linearly)"
+    },
+    "duration": {
+      "instant": 0.15,
+      "fast": 0.3,
+      "base": 0.45,
+      "draw": 0.6,
+      "slow": 0.7,
+      "exit": 0.3,
+      "hold": 1.6
+    },
+    "easing": {
+      "enter": { "gsap": "power3.out",   "css": "cubic-bezier(.215,.61,.355,1)" },
+      "snap":  { "gsap": "back.out(1.7)", "css": "cubic-bezier(.34,1.56,.64,1)" },
+      "stamp": { "gsap": "back.out(2.6)", "css": "cubic-bezier(.3,2,.6,1)" },
+      "draw":  { "gsap": "power3.inOut", "css": "cubic-bezier(.645,.045,.355,1)" },
+      "count": { "gsap": "power2.out",   "css": "cubic-bezier(.25,.46,.45,.94)" },
+      "exit":  { "gsap": "power2.in",    "css": "cubic-bezier(.55,.085,.68,.53)" },
+      "drift": { "gsap": "none",         "css": "linear" }
+    },
+    "distance": { "xs": 8, "sm": 14, "md": 28, "lg": 34 },
+    "elements": {
+      "_note": "Every element of the ABLENEO Design Guidelines 2025 mapped to a verb. Helper names from video-system/motion.mjs.",
+      "logoMark":      { "verb": "connect", "helper": "connect()", "how": "The three nodes open (snap, stagger 0.12s), then the links close (draw 0.6s). Ends as the exact approved mark. Intro and end card only." },
+      "logotype":      { "verb": "snap",    "helper": "logo()",    "how": "Wordmark follows the mark: opacity + max 8px. Never animate letters." },
+      "supergraphic":  { "verb": "drift",   "helper": "drift()",   "how": "Giant cropped mark at 4-6% opacity behind dividers. Linear, one axis, max 68px per scene. Never the only thing moving." },
+      "sectionNumber": { "verb": "snap",    "helper": "snapY()",   "how": "Lime index number (01, 02) rises 14px and locks. It is an index, so no count-up." },
+      "arrowButton":   { "verb": "draw",    "helper": "stroke() + nudge()", "how": "Circle stroke draws, arrow nudges 8px toward the next scene once." },
+      "labelChip":     { "verb": "draw",    "helper": "chip()",    "how": "Lime chip wipes open from the left in 0.3s. Counts as the lime move of that beat." },
+      "iconSolid":     { "verb": "snap",    "helper": "pop()",     "how": "Filled circle scales 0.6 to 1 with snap easing, stagger 0.12s." },
+      "iconLinear":    { "verb": "draw",    "helper": "stroke()",  "how": "Line icon strokes draw in 0.6s. Stroke weight never animates." },
+      "colorBlock":    { "verb": "wipe",    "helper": "wipe()",    "how": "Scene change: a solid block of the next scene color crosses on one axis, 0.45s in, 0.45s out. One chromatic family per scene, or one per category when the scene codes categories." },
+      "barChart":      { "verb": "draw",    "helper": "grow()",    "how": "Bars grow from the baseline, stagger 0.12s. Value label counts with them." },
+      "dotMatrix":     { "verb": "count",   "helper": "fill()",    "how": "Dots fill to the value in 0.45s total, reading order. The percentage counts alongside." },
+      "keyNumber":     { "verb": "count",   "helper": "count()",   "how": "Bold number runs 0 to value and holds min 1.6s." },
+      "headerRow":     { "verb": "snap",    "helper": "enter()",   "how": "Carousel: tag left + page number right arrive first, small and quiet." },
+      "ghostNumber":   { "verb": "snap",    "helper": "ghost()",   "how": "Carousel: giant cropped page number rises 68px in 0.7s behind the content. Outline on light, low-contrast fill on dark." },
+      "statementBlock":{ "verb": "draw",    "helper": "block()",   "how": "Carousel: the color block holding the key statement opens from the left in 0.6s, then the text snaps in." },
+      "emphasisWord":  { "verb": "count",   "helper": "emph()",    "how": "Carousel: key words land in the line color, then lock to the chromatic color (or white bold on a color block) in 0.3s." },
+      "pillWord":      { "verb": "draw",    "helper": "chip()",    "how": "Carousel: the pill around a word (\"Wi-Fi\") opens from the left after the line lands." },
+      "iconList":      { "verb": "snap",    "helper": "pop() + snap()", "how": "Carousel: icon circles pop, their labels snap in, stagger 0.12s per row." },
+      "ctaButton":     { "verb": "snap",    "helper": "snapY() + nudge()", "how": "Carousel: CTA pill rises and locks, its arrow nudges once." },
+      "photoTile":     { "verb": "draw",    "helper": "photo()",   "how": "Photo opens top-down in 0.6s and settles from 106% to 100% scale. Lime duotone photos only in lime films." },
+      "slideChange":   { "verb": "wipe",    "helper": "swipe()",   "how": "Carousel as video: slides push left, 0.45s, the swipe direction of the feed." }
+    },
+    "stagger": 0.12,
+    "fps": 30,
+    "formats": {
+      "square": [1080, 1080],
+      "portrait": [1080, 1350],
+      "landscape": [1920, 1080],
+      "vertical": [1080, 1920]
+    },
+    "_rules": {
+      "vocabularyOnly": "snap, draw, count (+ exit). No generic fade/slide-in of text.",
+      "oneLimeMoveAtATime": true,
+      "noLimeTopBar": "Motion work does not use the partial lime top bar. Open on the grid and the content.",
+      "chromaticSwap": "Accent films (Sky Blue or Violet) use the exact same motion. Swap the color family, never the physics. Families share a scene or slide only as category coding, never two inside one element.",
+      "limeIsTheEyeline": "Lime marks what the eye should follow, so only one lime element moves per beat. Everything else moving in that beat is white, grey or charcoal.",
+      "axisOnly": "Move along the grid axes (x or y). No diagonals, rotation or 3D. Exception: stamp.",
+      "logo": "Opacity + max 8px translate. Never rotate, scale-bounce or add effects. Exception: connect() builds the mark from its own nodes on intros and end cards, ending as the exact approved mark.",
+      "tempo": "In fast (max 0.6s), hold calm (min 1.6s to read), out faster than in (exit easing).",
+      "noUniformCuts": "Never cut every beat at the same length (~1.5s).",
+      "reducedMotion": "Web: prefers-reduced-motion collapses everything to opacity over 0.2s."
+    }
+  },
+  "web": {
+    "_note": "ableneo.com redesign 2026 (web-homepage-v2). Principles in design-manual.md → Application: Web.",
+    "_rules": { "categoryColorCoding": "allowed (general rule since 2026-10-05, see color._rules)", "headlineWeight": "Ableneo Regular", "statNumberWeight": "Regular, sized up", "headlinePeriod": false },
+    "layout": { "artboard": 1440, "container": 1328, "gutter": 56, "mobileBreakpoint": 768, "mobileGutter": 20 },
+    "color": { "hairlineOnCharcoal": "#404246", "lineArt": "#3B3E44", "logoMono": "#596677", "textSecondary": "#8E8F91", "limeHover": "#D2E027" },
+    "typography": {
+      "hero": { "font": "Ableneo Regular", "sizePx": 72, "lineHeightPx": 80, "tracking": "-0.72px", "mobileSizePx": 44 },
+      "section": { "font": "Ableneo Regular", "sizePx": 48, "lineHeightPx": 56, "tracking": "-0.48px" },
+      "eyebrow": { "font": "Poppins SemiBold", "sizePx": 12, "tracking": "0.72px", "case": "uppercase" },
+      "body": { "font": "Poppins Light", "sizePx": 16, "lineHeightPx": 24 },
+      "lead": { "font": "Poppins Light", "sizePx": 20, "lineHeightPx": 28 },
+      "stat": { "font": "Ableneo Regular", "sizePx": 80, "lineHeightPx": 80, "mobileSizePx": 44 }
+    },
+    "elements": {
+      "diamond": { "sizePx": 136, "radiusPx": 32, "strokePx": 2, "stroke": "#CDDE00", "fill": "#1D2024", "rotateDeg": 45, "motion": "circle rolls in (half turn, PI*r) with easing.enter, locks to diamond with easing.snap; 1.6s; replay on hover" },
+      "lineArt": { "strokePx": 1.5, "stroke": "#3B3E44", "accentStroke": "#FFFFFF", "cropped": true },
+      "card": { "border": "1px #404246", "radius": 0, "openBottomBarPx": 2, "openWidthPx": 708, "closedWidthPx": 302, "heightPx": 430 },
+      "chip": {
+        "heightPx": 38,
+        "dim": { "fill": "#1D2024", "border": "#404246", "text": "#8E8F91" },
+        "white": { "fill": "#FFFFFF", "text": "#1D2024" }
+      },
+      "logoMarquee": { "logoMaxHeightPx": 32, "loopS": 60, "easing": "linear", "pauseOnHover": true, "edgeFade": "6%" },
+      "dot": { "sizePx": 12 },
+      "reveal": { "risePx": 16, "durationS": 0.5 }
+    }
   }
 }

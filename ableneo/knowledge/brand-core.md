@@ -54,14 +54,17 @@ that came before it.
 | **Personality** | How we act | Calm, confident, precise, human |
 | **Proof** | How we show it | Transparent metrics, working ecosystems, trusted people |
 
-## The operating model
-Three forces, designed to learn from each other and operate as one coherent system:
+## The operating model: one system, four pillars
+Four pillars (Corporate Strategy v4), designed to operate as one coherent system:
 
-- **Human Capability**, decision-making, leadership alignment, culture.
-- **Technical Capability**, models, workflows, automations, integrations.
-- **Organizational Capability**, governance, standards, operating rhythms.
+- **Human**, AI literacy, culture, change.
+- **Process**, identify, optimize, automate.
+- **Technology**, agents, automations, apps.
+- **Data**, architecture, quality, governance.
 
-> Ableneo makes these three operate as one. That is what makes intelligence work.
+Security is the foundation; legal, ethics and governance are the roof.
+
+> Ableneo makes these four operate as one. That is what makes intelligence work.
 
 ## Explaining "AI-native organizations"
 
@@ -75,5 +78,5 @@ Three forces, designed to learn from each other and operate as one coherent syst
 organizations that align both into a single capability. Ableneo leads that shift
 with proof, with systems, with intelligence that works.
 
-- **Business vision (5 years):** rebuild 3 major companies on the market from the ground up.
-- **Business mission:** turn organizations into future-proof, competitive ecosystems.
+- **Business vision (2030, v4):** CEE enterprises that came through the AI shift strongest did it with Ableneo.
+- **Business mission (24 months, v4):** meaningful, measurable AI change in 5 major companies on the market.

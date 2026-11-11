@@ -7,13 +7,13 @@ GOTCHA: API/partner nody (Wan, Kling, Flux hosted) potrebujú comfy.org kľúč 
 `extra_data.api_key_comfy_org`, inak padnú na „Unauthorized: Please login first".
 comfy_client.py ho posiela automaticky.
 
-## api_wan2_7_t2v.json — Wan 2.7 text-to-video
+## api_wan2_7_t2v.json: Wan 2.7 text-to-video
 Nód **`13`** = `Wan2TextToVideoApi`, nód `12` = SaveVideo. Override:
-- `13.inputs.model.prompt` — prompt (drž brand štýl: charcoal #1D2024 + lime #CDDE00, no text, no logos)
-- `13.inputs.seed` — seed (drž rovnaký pre konzistentný štýl naprieč zábermi)
-- `13.inputs.model.ratio` — `16:9` (web) alebo `9:16` (social)
-- `13.inputs.model.resolution` — `720P` / `1080P`
-- `13.inputs.model.duration` — sekundy (default 5)
+- `13.inputs.model.prompt`: prompt (drž brand štýl: charcoal #1D2024 + lime #CDDE00, no text, no logos)
+- `13.inputs.seed`: seed (drž rovnaký pre konzistentný štýl naprieč zábermi)
+- `13.inputs.model.ratio`: `16:9` (web) alebo `9:16` (social)
+- `13.inputs.model.resolution`: `720P` / `1080P`
+- `13.inputs.model.duration`: sekundy (default 5)
 
 Príklad (jeden b-roll klip):
 ```

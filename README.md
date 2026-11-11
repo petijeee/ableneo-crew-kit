@@ -15,9 +15,10 @@ New here? Start with [`ableneo/COLLEAGUES.md`](ableneo/COLLEAGUES.md).
 ableneo/
   ABLENEO.md          # always-on operating context (read first)
   COLLEAGUES.md       # start here (manual pre kolegov)
-  knowledge/          # single source of truth (brand system + offering + ESSA)
-  deck-kit/           # branded render engine (decks, carousels, video overlays)
-  scripts/            # session-start hook, video + AI b-roll tooling
+  knowledge/          # single source of truth (brand system, design manual, offering, method)
+  deck-kit/           # branded render engine (carousels, social visuals, video overlays)
+  video-system/       # Lock-in motion system + video quality gate
+  scripts/            # session-start hook, build_deck.py (pptx), video + AI b-roll tooling
   workflows/          # ComfyUI workflows (API format)
   outputs/            # your dated deliverables (YYYY-MM-DD-ableneo-*)
 .claude/
@@ -31,9 +32,13 @@ ableneo/
 **Brand layer:** brand-strategist, copywriter, presentation-builder, visual-designer, brand-guardian.
 **Production layer:** content-linkedin, web-ableneo, video-producer, ai-video-producer.
 
-## Voice rules (non-negotiable)
-Precise (numbers over adjectives), clear, confident, human. No em dashes. No two-sentence
-reject-then-replace ("We don't X. We do Y."). Glass-wall test on every headline.
+## Brand rules (non-negotiable)
+- **Voice:** precise (numbers over adjectives), clear, confident, human. No em dashes. No
+  two-sentence reject-then-replace ("We don't X. We do Y."). Glass-wall test on every headline.
+- **Color:** Lime `#CDDE00` + Charcoal `#1D2024` + White by default. Sky Blue / Violet only as
+  category coding, one family per item, never two in one element. No lime top bar.
+- **Method:** four pillars, Human, Process, Technology, Data. Security underneath, governance on top.
+- **Visuals:** start at `ableneo/knowledge/design-manual.md`.
 
 ## Notes
 - Colleague version of the crew (brand system + production tooling). Commercial strategy,

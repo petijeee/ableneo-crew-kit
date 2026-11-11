@@ -47,4 +47,4 @@ Two complementary styles, one geometric system (rounded edges, consistent stroke
 - Approved: Lime-fill, Charcoal-fill, white/charcoal line on appropriate backgrounds, Steel-grey fills.
 - ❌ Avoid low-contrast or inconsistent combinations (e.g. pale icon on pale ground), it kills legibility and weakens impact.
 
-> Same principle as the color system: clarity and contrast first, one chromatic family at a time.
+> Same principle as the color system: clarity and contrast first, one chromatic family per icon.

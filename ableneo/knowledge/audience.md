@@ -4,7 +4,7 @@
 
 | Tier | Who | Why they matter |
 |---|---|---|
-| **Primary** | CIOs, CTOs, COOs, Heads of Operations | They need performance they can **measure**. They sign off and own the outcome. |
+| **Primary** | C-suite and transformation leadership, mostly CIOs (also CTO, COO, CDO). Banking, telco, insurance first. | They need performance they can **measure**. They sign off and own the outcome. |
 | **Secondary** | Middle managers | They must **implement** the transformation day to day. |
 | **Tertiary** | Employees | Their **trust** determines whether AI actually succeeds. |
 

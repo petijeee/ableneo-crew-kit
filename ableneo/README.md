@@ -16,10 +16,17 @@ knowledge/                 # The knowledge hub, distilled brand strategy & asset
   ├── voice-and-tone.md    # Language principles + verbal codes
   ├── positioning.md       # Archetype, enemy, cultural role, narrative
   ├── audience.md          # Who we talk to + category entry points
+  ├── design-manual.md     # Design Guidelines 2025 distilled, start here for visuals
+  ├── offering.md          # 10 productized offerings, four-pillar lens
+  ├── methodology-essa.md  # Four pillars + business impact first
+  ├── templates/           # Official 16:9 pptx template + slot map
   ├── color-palette.md     # Brand colors with roles, tints & pairing rules
   ├── typography.md        # Ableneo + Poppins, hierarchy, alignment
   ├── logo-and-iconography.md # Logo usage, safe zone, misuse, icon system
-  └── design-tokens.json   # Machine-readable design tokens
+  └── design-tokens.json   # Color, type, deck and motion tokens
+deck-kit/                  # HTML render engine (carousels, social visuals, overlays)
+video-system/              # Lock-in motion system + video quality gate
+scripts/                   # Session hook, build_deck.py, video + AI b-roll tools
 .claude/
   ├── agents/              # The crew (brand + production)
   ├── commands/            # Slash commands (/new-deck, /brand-check, /rewrite-voice)
@@ -57,6 +64,5 @@ Built from three sources:
 - **ABLENEO Design Guidelines 2025**, logo, color system, typography, iconography.
 - **Brand palette**, the official color values.
 
-> ⚠️ **Pending:** `ableneo_presentation_template.pptx` was not provided. The
-> `presentation-builder` works from the documented palette, type, and voice; drop the
-> template into `knowledge/templates/` and update `design-tokens.json` to wire it in.
+> **Decks:** the official 16:9 `ableneo_presentation_template.pptx` is in `knowledge/templates/`.
+> `scripts/build_deck.py SPEC.json` builds on its 19 named layouts.

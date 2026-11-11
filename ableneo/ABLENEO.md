@@ -64,7 +64,7 @@ Reference voice lines: *"We make AI clear." · "Intelligence, implemented." ·
 
 ## Who we talk to
 
-- **Primary:** CIOs, CTOs, COOs, Heads of Operations, they need performance they can measure.
+- **Primary:** C-suite and transformation leadership, mostly CIOs, in banking, telco and insurance first; they need performance they can measure.
 - **Secondary:** Middle managers who must implement transformation.
 - **Tertiary:** Employees whose trust determines whether AI succeeds.
 - **Their pain:** AI hype, unclear ROI, loss of control, fatigue from false promises.
@@ -75,13 +75,14 @@ Reference voice lines: *"We make AI clear." · "Intelligence, implemented." ·
 - **Lime** `#CDDE00` (CMYK 25/0/100/0), primary brand color, energy, the "signal."
 - **Charcoal** `#1D2024`, primary text & dark surfaces.
 - **White** `#FFFFFF`, primary background, space, clarity.
-- **Accents:** **Violet** `#B6B0F2` · **Sky Blue** `#C3D3FD`, use one at a time, never with Lime.
+- **Accents:** **Violet** `#B6B0F2` · **Sky Blue** `#C3D3FD`, for category coding next to Lime (see the rule below).
 - **Neutrals:** **Steel Grey** `#49576A` + cool/light greys.
 - **Lime tints** `#DCE84D` · `#E1EB66` · `#E6EF80`, backgrounds, highlights, data viz.
 
-> **The one rule that breaks designs:** only **one chromatic family at a time**
-> (Lime **or** Blue **or** Violet), always paired with neutrals (white/grey/black).
-> **Never mix color families. Lime is never combined with the accents.**
+> **The color rule (since 2026-10-05):** Lime + Charcoal + White is the default. Sky Blue and Violet may sit next to
+> Lime on one page, slide or scene **only as category coding**: each item (industry, step, series, chapter) owns one
+> family and keeps it through the whole piece. **Never two families inside one element** (card, block, chip, chart
+> series, icon). Color sits on neutrals only, never Lime type on Blue/Violet. Nothing to code? Use one family.
 
 ## Type & logo (quick reference)
 
@@ -89,8 +90,9 @@ Reference voice lines: *"We make AI clear." · "Intelligence, implemented." ·
 - **Hierarchy:** Headline = Ableneo Bold; Subheadline = Ableneo SemiBold (~⅓ smaller); Body = Ableneo Regular (~½ of headline). Highlight with Ableneo Bold.
 - **Logo:** lowercase `ableneo` wordmark + network-node mark; tagline *Intelligence that works*. Never rotate, recolor, distort, add effects, or place on low-contrast backgrounds.
 
-Full tokens & rules: `knowledge/color-palette.md`, `knowledge/typography.md`,
-`knowledge/logo-and-iconography.md`, `knowledge/design-tokens.json`.
+**Design manual first:** `knowledge/design-manual.md` (ABLENEO Design Guidelines 2025: where the PDF is,
+signature elements, carousel templates). Full tokens & rules: `knowledge/color-palette.md`, `knowledge/typography.md`,
+`knowledge/logo-and-iconography.md`, `knowledge/design-tokens.json`. Motion: `video-system/MOTION.md`.
 
 ---
 
@@ -119,17 +121,17 @@ Peter orchestrates. Agents execute, all grounded in this file and `knowledge/`.
 
 ## Knowledge hub (`knowledge/`)
 
-Distilled, structured source of truth. Start at `knowledge/README.md`. Brand files plus
-`offering`, `methodology-essa`, and `assets`.
+Distilled, structured source of truth. Start at `knowledge/README.md`. Brand files plus the
+offering layer (`offering`, `methodology-essa`, `assets`). Client proof points come from
+Peter, never invent client numbers.
 
 ## Automation (`.claude/`, `ableneo/scripts/`)
 
 - **SessionStart hook** (`ableneo/scripts/session-start.sh`) loads this context every session.
 - **Slash commands:** `/new-deck`, `/brand-check`, `/rewrite-voice`.
-- **Production scripts** (`transcribe.sh`, `make-9x16.sh`, `comfy_client.py`) for video and AI b-roll.
+- **Production scripts** (`transcribe.sh`, `make-9x16.sh`, `comfy_client.py`, `build_deck.py`) for video, AI b-roll and decks.
 - **Publishing** (LinkedIn, web) and performance reporting run in Peter's workspace, after his approval.
 
 ---
 
-*Source of truth: ABLENEO Brand Strategy (FINAL) + brand palette. If you change the strategy,
-update this file and `knowledge/` in the same commit.*
+*Source of truth: ABLENEO Brand Strategy (FINAL) + brand palette + Design Guidelines 2025. If you change the strategy, update this file and `knowledge/` in the same commit.*

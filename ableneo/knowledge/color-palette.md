@@ -3,17 +3,19 @@
 > Source of truth: **ABLENEO Design Guidelines 2025** + brand palette.
 > Each color has official HEX and CMYK. Machine-readable values: `design-tokens.json`.
 
-## The one rule that breaks designs
-**Only one chromatic color family at a time, Lime *or* Blue *or* Violet, and always
-paired with neutrals (white, grey, black).**
+## The color rule
+**Lime + Charcoal + White is the default. Sky Blue and Violet join Lime only as category coding.**
+(Changed 2026-10-05 by Peter, from "one chromatic family at a time". Started on the web, now applies to all communication.)
 
-- ✅ Lime + Charcoal/White/Grey
-- ✅ Sky Blue + Charcoal/White/Grey
-- ✅ Violet + Charcoal/White/Grey
-- ❌ Lime + Violet, Lime + Blue, Blue + Violet (never mix chromatic families)
-- ❌ Lime text on Violet/Blue (insufficient contrast, visual noise, lost hierarchy)
+- ✅ Lime + Charcoal/White/Grey (default, and the answer whenever there is nothing to code)
+- ✅ Sky Blue or Violet + Charcoal/White/Grey (accent pieces)
+- ✅ Lime, Sky Blue and Violet on one page/slide/scene **as category coding**: each item owns one family and keeps
+  it through the whole piece (e.g. Telco lime, Banking sky blue, Insurance violet; process steps; chart series; chapters)
+- ❌ Two families inside one element (one card, block, chip, icon, or one chart series)
+- ❌ Color used decoratively with no category behind it
+- ❌ Lime text on Violet/Blue or the reverse (insufficient contrast, visual noise, lost hierarchy)
 
-This keeps the system controlled, balanced, accessible, and distinctly recognisable.
+Color is an accent (a dot, a line, a chip, a block, the key number), never a body fill. Neutrals carry the layout.
 
 ## Primary colors
 
@@ -37,7 +39,7 @@ typography, and data visualisation.
 
 ## Secondary colors
 
-### Accents, use one at a time, never with Lime
+### Accents, for category coding next to Lime, never inside the same element
 | Name | HEX | CMYK |
 |---|---|---|
 | **Violet** | `#B6B0F2` | 27 / 29 / 0 / 0 |
@@ -58,6 +60,6 @@ typography, and data visualisation.
 
 ## Usage guidance
 - **Default scheme:** Charcoal + White + Lime. Lime is an accent, not a body color, it draws the eye to the one thing that matters (a number, a CTA, a highlight).
-- **Data visualisation:** stay within one chromatic family + charcoal/grey steps; reserve Lime to highlight the single most important data point.
+- **Data visualisation:** one family + charcoal/grey steps, with Lime on the single most important data point. When series are categories, code them one family per series and keep the coding consistent with the rest of the piece.
 - **Accessibility:** keep chromatic colors on neutral backgrounds for contrast. Never set Lime type on Violet/Blue or vice versa.
 - **Backgrounds:** Charcoal for dark mode, White for light mode, Lime as a full-bleed statement background (with Charcoal type only).

@@ -1,23 +1,36 @@
 # Offering
 
-What Ableneo sells. Three layers, sold together. Clients buy solved problems, the AI is the means.
+What Ableneo sells.
+Ableneo is consulting-led: we enter through diagnosis of the business problem, delivery
+follows. Clients buy solved problems, the AI is the means.
 
-## 1. Advisory
-Strategy, AI discovery, use-case prioritization, change management. Where the business
-problem gets defined and the roadmap gets set. Not a commodity, this is where trust starts.
+## The portfolio: 10 productized offerings
+Every offering has a defined buyer and every product contains an AI instance.
 
-## 2. Delivery
-Implementation in production, inside regulated and legacy environments where hyperscalers
-and generic SaaS cannot reach. Integration with 15-25 year old core banking/insurance
-platforms. The work that turns a pilot into a system that runs.
+| Group | Offerings |
+|---|---|
+| **Entry** (where a relationship starts) | AI Readiness Diagnostics, POC, Data/AI Healthcheck |
+| **Core delivery** | Synthetic AI Expert, Agentic AI Solutions, Advanced Tailored AI Systems, Domain-Specific AI Models |
+| **Enterprise** | Enterprise AI Agent Platform, FinAIOps, AI-Augmented SW Development |
+| **Foundation** | AI Hackathon |
+| **Run** (after every delivery) | AI Managed Services |
 
-## 3. Governance
-EU AI Act and DORA compliance, AI governance stack, observability, accountability.
-The layer that lets a regulated bank actually deploy to production. This is the moat.
+## The lens: four pillars
+Human (AI literacy, culture, change), Process (identify, optimize, automate), Technology
+(agents, automations, apps), Data (architecture, quality, governance). Security is the
+foundation; legal, ethics and governance are the roof (AI Act-ready trail,
+human-in-the-loop by default). The pillars explain how we think, they never appear as
+separate line items on an invoice. Detail: `methodology-essa.md`.
+
+## Where the advantage sits
+Not in tech IP (hyperscalers commoditize simple patterns like RAG). It sits in the
+reference base, regulated-grade delivery, business-impact-first scoping, and full-cycle
+ownership through production (the people who pitch also deliver).
 
 ## How to talk about it
-- Lead with the client problem, not the technology.
-- Advisory opens, delivery proves, governance defends. Sell the chain, not a single box.
-- The strategic direction emphasizes advisory + delivery + governance as one integrated offer.
-
-Method behind delivery: `methodology-essa.md`.
+- Lead with the client problem and its business case, not the technology.
+- Make the entry offers visible; normalize Managed Services; frame every engagement as
+  the start of a long-term relationship (land and expand).
+- Talk industry depth (banking, telco, insurance) and regulated-grade delivery, not
+  generic AI capability.
+- Never quote prices, tier names as internal jargon, or financials externally.
