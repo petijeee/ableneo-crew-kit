@@ -39,7 +39,7 @@ const slide = page(`<div class="slide" style="background:${v.bg};">${v.grid}
   <div class="foot"><span class="body" style="color:${v.sub};">[ tag ]</span>${arrow(v.arrowInk)}</div></div>`);
 // then render slide HTML -> PNG (puppeteer), see example.mjs
 ```
-Run the example: `node example.mjs` (renders `example-1.png`, `example-2.png`).
+Install once: `npm i` (puppeteer; if Chrome is missing, `npx puppeteer browsers install chrome`). Run the example: `node example.mjs` (renders `example-1.png`, `example-2.png`).
 A full real deck built on this language: `../../ableneo event promo/carousel-lifecycle/render-v3.mjs`.
 
 ## Fonts (important)

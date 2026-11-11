@@ -12,3 +12,6 @@ ableneo/deck-kit/assets/fonts/*.otf
 
 # ableneo-level secrets
 ableneo/.env
+
+# rendered reference sheet
+ableneo/outputs/deck-kit-manual-reference.png

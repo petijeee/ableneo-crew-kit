@@ -1,6 +1,7 @@
 // Reference sheet: the design manual's stat-card + carousel templates rebuilt from deck-kit modules only.
 // Proves the kit covers the manual; use it as the visual index when picking a scheme. node render-manual-reference.mjs
-import { resolve } from 'path';
+import { resolve, dirname } from 'path';
+import { mkdirSync } from 'fs';
 import { createRequire } from 'module';
 import { page, head, ghost, ghostOutline, arrow, variants, rhythm, statBento, iconCircle, block, pill, SKY, supergraphic, LIME, CHARCOAL } from './deck-kit.mjs';
 import { puppeteer as kitPuppeteer } from './deck-kit.mjs'; const puppeteer = await kitPuppeteer();
@@ -29,5 +30,5 @@ const html = page(`<div class="sheet"><h2>Stat cards: dark · dark + violet · s
 const b = await puppeteer.launch({ headless: true }), p = await b.newPage();
 await p.setViewport({ width: 2100, height: 1000, deviceScaleFactor: 1 });
 await p.setContent(html, { waitUntil: 'load' }); await p.waitForFunction(() => document.body.dataset.fit);
-const out = resolve('../outputs/deck-kit-manual-reference.png');
+const out = resolve('../outputs/deck-kit-manual-reference.png'); mkdirSync(dirname(out), { recursive: true });
 await p.screenshot({ path: out, fullPage: true }); await b.close(); console.log(out);
